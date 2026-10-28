@@ -1,0 +1,44 @@
+{
+ "id": "deer",
+ "ppm": 22,
+ "src_ppm": 28.0,
+ "k": 0.7857142857142857,
+ "cell": [
+  44,
+  53
+ ],
+ "anchor": [
+  22.0,
+  40.529411764705884
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "idle": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 3.0,
+   "loop": true
+  },
+  "run": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.6,
+   "loop": true
+  },
+  "walk": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 1.2,
+   "loop": true
+  }
+ }
+}

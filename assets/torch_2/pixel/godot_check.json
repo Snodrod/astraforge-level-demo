@@ -1,0 +1,38 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 1,
+    "animations": {
+     "static_S": {
+      "atlas_size": [
+       16,
+       40
+      ],
+      "frame_size": [
+       16,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/torch_2/torch_2_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.16,
+ "log": "C:\\AstraForge\\library\\assets\\5ef6c4f2-eeee-436e-ab75-3ddbb56293cd\\v006\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

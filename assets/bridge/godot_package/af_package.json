@@ -1,0 +1,31 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "bridge",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "bridge.glb",
+ "glb_sha256": "e9999ba234064eec05b78c0e2e90e57d6d79d23c6fbd274d078fdb7f5b7e03c4",
+ "source_glb": "C:\\AstraForge\\library\\assets\\ece082e1-7dc7-4efa-a8fa-e47a9df4d9d9\\v001\\02_paint_from_concept\\painted.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [],
+ "pivots": [],
+ "clips": [],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  1.8223,
+  1.6,
+  3.3577
+ ],
+ "longest_m": 3.3577,
+ "tris": 5988,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

@@ -1,0 +1,305 @@
+{
+  "ok": true,
+  "step": "render_sprites",
+  "outputs": {
+    "sheets": {
+      "static.png": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\static.png"
+    },
+    "spriteframes": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\tree_oak_2_v2_ecdce7ae_frames.tres",
+    "palette": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\palette.png",
+    "palette_gpl": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\palette.gpl",
+    "sprites_json": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\sprites.json",
+    "preview": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\preview.png",
+    "preview_frames": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\preview_frames.png",
+    "godot_check": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\godot_check.json"
+  },
+  "stats": {
+    "profile": "pixel",
+    "asset_id": "tree_oak_2_v2_ecdce7ae",
+    "engine": "BLENDER_EEVEE",
+    "device": "gpu",
+    "cell": [
+      80,
+      80
+    ],
+    "anchor": [
+      40.0,
+      66.0
+    ],
+    "px_per_meter": 16.0,
+    "elevation_deg": 40.0,
+    "views": [
+      "S"
+    ],
+    "frames_rendered": 1,
+    "render_seconds": 0.95,
+    "seconds_per_frame": 0.95,
+    "clips": {
+      "static": {
+        "frames": 1,
+        "loop": false,
+        "fps": 8.0,
+        "in_place": "none",
+        "time_scale": 1.0
+      }
+    },
+    "min_z_per_clip_m": {
+      "static": [
+        0.0,
+        0.0
+      ]
+    },
+    "body_luminance_by_view": {
+      "S": 148.9
+    },
+    "normalization": {
+      "scale": 1.0,
+      "offset_m": [
+        -0.0407,
+        0.0838,
+        -0.0
+      ],
+      "pose": "rest",
+      "height_in_m": 4.6513,
+      "height_m": 4.6513,
+      "rest_height_m": 4.6513
+    },
+    "root_ground_max_dev_px": {},
+    "total_seconds": 4.71,
+    "forward": "+Y",
+    "body_px": 71.3,
+    "sheet_px": {
+      "static": [
+        80,
+        80
+      ]
+    },
+    "cell_adapted": null,
+    "body_scale": {
+      "px_per_m": 15.49,
+      "expected": 16.0,
+      "anchor_top_offset_px": 1.7,
+      "height_diff_px": -2.26,
+      "frames": 1
+    },
+    "pixel": {
+      "palette": [
+        "#201c16",
+        "#473f32",
+        "#544a39",
+        "#61553f",
+        "#685e45",
+        "#766447",
+        "#647542",
+        "#67754c",
+        "#7c6e4b",
+        "#837553",
+        "#708247",
+        "#758654",
+        "#798c49",
+        "#838b53",
+        "#7e8e5c",
+        "#918762",
+        "#86984c",
+        "#85965a",
+        "#879954",
+        "#899b60",
+        "#8ea05a",
+        "#91a451",
+        "#93a064",
+        "#97aa64",
+        "#98ac5c",
+        "#9aad52",
+        "#a1af69",
+        "#a5b957",
+        "#a6b960",
+        "#aaba6c",
+        "#aabd66",
+        "#b2c657",
+        "#b1c370",
+        "#b2c660",
+        "#b2c66c",
+        "#b4c866",
+        "#b5c678",
+        "#bcd25c",
+        "#bcd266",
+        "#bdd270",
+        "#bed36b",
+        "#bfd179",
+        "#c5d962",
+        "#cbdf62",
+        "#c9dc78",
+        "#cbdf6b",
+        "#cbdf70",
+        "#d2e662"
+      ],
+      "colors": 48,
+      "palette_source": "auto",
+      "outline": "auto",
+      "dither": false,
+      "alpha_threshold": 128,
+      "supersample": 3,
+      "downscale": 1,
+      "reduce": "box",
+      "render_scale": 3,
+      "texture_filter": "nearest"
+    },
+    "sheet_bytes": {
+      "static.png": 7452
+    }
+  },
+  "checks": [
+    {
+      "name": "cell_fit",
+      "ok": true,
+      "value": 0.0,
+      "limit": 0,
+      "severity": "error",
+      "note": "px of model outside the cell (margin 0 px), evaluated vertices"
+    },
+    {
+      "name": "sprite_size_sane",
+      "ok": true,
+      "value": {
+        "cell": [
+          80,
+          80
+        ],
+        "body_px": 71.3
+      },
+      "limit": {
+        "max_cell_px": 2048,
+        "min_body_px": 6.0
+      },
+      "severity": "error"
+    },
+    {
+      "name": "sheet_size",
+      "ok": true,
+      "value": {
+        "static": [
+          80,
+          80
+        ]
+      },
+      "limit": 16384,
+      "severity": "error",
+      "note": "px per sheet side (per-direction sheets when large)"
+    },
+    {
+      "name": "frames_rendered",
+      "ok": true,
+      "value": 1,
+      "limit": null,
+      "severity": "error"
+    },
+    {
+      "name": "frames_body_inside_cell",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "empty frames or body pixels within 2 px of the cell border"
+    },
+    {
+      "name": "body_scale_px_per_m",
+      "ok": true,
+      "value": {
+        "px_per_m": 15.49,
+        "expected": 16.0,
+        "anchor_top_offset_px": 1.7,
+        "height_diff_px": -2.26,
+        "frames": 1
+      },
+      "limit": 16.0,
+      "severity": "warning",
+      "note": "rendered body height / height of the vertex projection at the profile scale (median over all frames; must stay 16 px/m whatever the cell) and the rendered top vs the projection through the anchor (px); tolerance 3 % of the height or 2.5 px"
+    },
+    {
+      "name": "alpha_residue_px",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with 0 < alpha < alpha_floor after cleanup"
+    },
+    {
+      "name": "pixel_palette_only",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "distinct colours of visible pixels (all frames, with the outline) that are not in the palette (48 colours)"
+    },
+    {
+      "name": "pixel_alpha_binary",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with alpha other than 0 or 255 (no translucent edges)"
+    },
+    {
+      "name": "lighting_spread",
+      "ok": true,
+      "value": 1.0,
+      "limit": 1.6,
+      "severity": "warning",
+      "note": "max/min mean luminance of body pixels across views (front vs back albedo differs legitimately)"
+    },
+    {
+      "name": "godot_spriteframes",
+      "ok": true,
+      "value": {
+        "animations": 1,
+        "mismatches": [],
+        "engine_errors": 0,
+        "godot": "4.5.1.stable.official.f62fdbde1"
+      },
+      "limit": null,
+      "severity": "error",
+      "note": "headless Godot 4.5.1 loads the .tres, frame counts/loop/speed match"
+    },
+    {
+      "name": "godot_engine_errors",
+      "ok": true,
+      "value": [],
+      "limit": [],
+      "severity": "warning"
+    }
+  ],
+  "warnings": [
+    "no armature clips found: rendering one static frame"
+  ],
+  "godot": {
+    "errors": [],
+    "fx_scenes": [],
+    "godot": "4.5.1-stable (official)",
+    "ok": true,
+    "scenes": [],
+    "sprite_frames": [
+      {
+        "animation_count": 1,
+        "animations": {
+          "static_S": {
+            "atlas_size": [
+              80,
+              80
+            ],
+            "frame_size": [
+              80,
+              80
+            ],
+            "frames": 1,
+            "loop": false,
+            "speed": 8.0
+          }
+        },
+        "loaded": true,
+        "mismatches": [],
+        "path": "res://sprites/tree_oak_2_v2_ecdce7ae/tree_oak_2_v2_ecdce7ae_frames.tres"
+      }
+    ]
+  },
+  "seconds": 5.05
+}

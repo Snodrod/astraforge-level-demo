@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\9779b494-8734-4171-b1a5-255b26c6091b\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\9779b494-8734-4171-b1a5-255b26c6091b\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 16,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "tree_spruce_2_v2_9779b494"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\9779b494-8734-4171-b1a5-255b26c6091b\\v001\\01_render_sprites",
+  "asset": {
+    "id": "9779b494-8734-4171-b1a5-255b26c6091b",
+    "name": "tree_spruce_2_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "66706291-d605-40a9-8cc5-e93aae9c293e",
+    "version": "v001",
+    "index": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\22cc6d3a-b04b-4053-8d65-1f2bf63520b9\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\22cc6d3a-b04b-4053-8d65-1f2bf63520b9\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 56,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "fox_v2_22cc6d3a"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\22cc6d3a-b04b-4053-8d65-1f2bf63520b9\\v001\\01_render_sprites",
+  "asset": {
+    "id": "22cc6d3a-b04b-4053-8d65-1f2bf63520b9",
+    "name": "fox_v2",
+    "kind": "creature",
+    "profile": {
+      "template": "auto"
+    }
+  },
+  "job": {
+    "id": "0ccf4db6-3a09-4d70-84fa-c37c71e1a4bc",
+    "version": "v001",
+    "index": 1
+  }
+}

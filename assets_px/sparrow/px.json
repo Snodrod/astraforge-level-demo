@@ -1,0 +1,44 @@
+{
+ "id": "sparrow",
+ "ppm": 56,
+ "src_ppm": 160.0,
+ "k": 0.35,
+ "cell": [
+  15,
+  15
+ ],
+ "anchor": [
+  7.5,
+  10.568181818181818
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "fly": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.3,
+   "loop": true
+  },
+  "idle": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 2.0,
+   "loop": true
+  },
+  "walk": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.5,
+   "loop": true
+  }
+ }
+}

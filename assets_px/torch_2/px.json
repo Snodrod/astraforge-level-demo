@@ -1,0 +1,25 @@
+{
+ "id": "torch_2",
+ "ppm": 30,
+ "src_ppm": 64.0,
+ "k": 0.46875,
+ "cell": [
+  8,
+  19
+ ],
+ "anchor": [
+  4.0,
+  16.625
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

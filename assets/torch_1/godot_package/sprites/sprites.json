@@ -1,0 +1,121 @@
+{
+ "format": "astraforge-sprites/1",
+ "asset_id": "torch_1",
+ "profile": "pixel",
+ "projection": "orthographic",
+ "px_per_meter": 100.0,
+ "elevation_deg": 30.0,
+ "cell": [
+  20,
+  68
+ ],
+ "anchor": [
+  10.0,
+  60.0
+ ],
+ "pivot_note": "anchor = projected world origin (ground point under the character after feet centering); root_px = projected hips ground point; feet_px = projected ground points of the foot bones (feet_bones order), feet_mid_px = their middle",
+ "godot_offset": [
+  0.0,
+  -26.0
+ ],
+ "cell_adapted": null,
+ "engine": "BLENDER_EEVEE",
+ "device": "gpu",
+ "shadow": false,
+ "forward": "-Y",
+ "forward_from": "manifest kind item",
+ "views": [
+  {
+   "name": "S",
+   "model_yaw_deg": 0.0
+  }
+ ],
+ "normalization": {
+  "scale": 1.0,
+  "offset_m": [
+   0.0002,
+   -0.0,
+   -0.0
+  ],
+  "pose": "rest",
+  "height_in_m": 0.6423,
+  "height_m": 0.6423,
+  "rest_height_m": 0.6423
+ },
+ "clips": {
+  "static": {
+   "action": null,
+   "loop": false,
+   "fps": 8.0,
+   "frames": 1,
+   "source_range": [
+    1,
+    1
+   ],
+   "source_fps": 24,
+   "source_duration_s": 0.0,
+   "time_scale": 1.0,
+   "in_place": "none",
+   "root_bone": null,
+   "cols": 1,
+   "layout": "stacked",
+   "feet_bones": [],
+   "views": {
+    "S": {
+     "sheet": "static.png",
+     "model_yaw_deg": 0.0,
+     "animation": "static_S",
+     "rects": [
+      [
+       0,
+       0,
+       20,
+       68
+      ]
+     ],
+     "root_px": []
+    }
+   }
+  }
+ },
+ "sheets": [
+  "static.png"
+ ],
+ "pixel": {
+  "palette": [
+   "#290c01",
+   "#33190b",
+   "#2d1d19",
+   "#1c2434",
+   "#481d03",
+   "#4a2009",
+   "#2b2e38",
+   "#283447",
+   "#452e21",
+   "#592a09",
+   "#2e3a4c",
+   "#67340c",
+   "#683514",
+   "#6d3a18",
+   "#684320",
+   "#774214",
+   "#806725",
+   "#b79e15",
+   "#aea329",
+   "#d9d41c",
+   "#ffff13",
+   "#ffff15",
+   "#ffff23"
+  ],
+  "colors": 23,
+  "palette_source": "auto",
+  "outline": "auto",
+  "dither": false,
+  "alpha_threshold": 128,
+  "supersample": 2,
+  "downscale": 1,
+  "reduce": "box",
+  "render_scale": 2,
+  "texture_filter": "nearest"
+ }
+}

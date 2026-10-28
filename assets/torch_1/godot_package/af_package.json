@@ -1,0 +1,75 @@
+{
+  "format": "astraforge-godot-package/1",
+  "asset_id": "torch_1",
+  "profile": "godot",
+  "godot": "4.5",
+  "glb": "torch_1.glb",
+  "glb_sha256": "c924579eeb9e409a6749521b2bf676c525c0dbbbb5fb31098017319fd7b6c818",
+  "source_glb": "C:\\AstraForge\\library\\assets\\c7ee0cee-ffdd-4cc3-af30-8710399e1e8a\\v001\\01_item_kit\\item.glb",
+  "glb_forward": "+Z",
+  "glb_forward_from": "manifest kind item",
+  "glb_forward_guessed": false,
+  "scene_forward": "+Z",
+  "model_rotated_180": false,
+  "sockets": [
+    {
+      "name": "socket_fx_tip",
+      "node": "socket_fx_tip",
+      "kind": "fx",
+      "size_class": null,
+      "size_class_from": null,
+      "diameter_m": null,
+      "type": "EMPTY",
+      "parent": "item_torch",
+      "parent_bone": null,
+      "has_game_socket": true,
+      "frame": "fx: +Z emission direction"
+    },
+    {
+      "name": "socket_grip_main",
+      "node": "socket_grip_main",
+      "kind": "grip",
+      "size_class": null,
+      "size_class_from": null,
+      "diameter_m": null,
+      "type": "EMPTY",
+      "parent": "item_torch",
+      "parent_bone": null,
+      "has_game_socket": true,
+      "frame": "grip: +Z thumb side / along shaft, -Y edge-face"
+    }
+  ],
+  "pivots": [],
+  "clips": [],
+  "fx": [
+    {
+      "preset": "fire",
+      "socket": "socket_fx_tip",
+      "file": "fire.tscn",
+      "node_name": "fx_fire",
+      "params": {},
+      "scale": 0.357,
+      "scale_source": "asset longest axis 0.642 m / preset 1.8 m",
+      "quad_size_m": 0.1249,
+      "visibility_aabb": [
+        -1.428,
+        -1.428,
+        -1.428,
+        2.856,
+        2.856,
+        2.856
+      ]
+    }
+  ],
+  "fx_auto_scale": true,
+  "size_gltf_m": [
+    0.0804,
+    0.6423,
+    0.08
+  ],
+  "longest_m": 0.6423,
+  "tris": 1346,
+  "registry": null,
+  "sq_units": null,
+  "sprites": true
+}

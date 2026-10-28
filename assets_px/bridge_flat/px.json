@@ -1,0 +1,25 @@
+{
+ "id": "bridge_flat",
+ "ppm": 16,
+ "src_ppm": 64,
+ "k": 0.25,
+ "cell": [
+  140,
+  63
+ ],
+ "anchor": [
+  70.0,
+  44.0
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 1.0,
+   "source_duration_s": 0.0,
+   "loop": true
+  }
+ }
+}

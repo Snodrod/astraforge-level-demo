@@ -1,0 +1,21 @@
+{
+ "asset_id": "grass_1",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "grass_1.glb",
+  "grass_1.tscn",
+  "grass_1_leaves.png",
+  "leaves_wind.gdshader"
+ ],
+ "cards": 5,
+ "rows": 4,
+ "total_tris": 40,
+ "leaf_tris": 40,
+ "trunk_tris": 0,
+ "core_tris": 0,
+ "leaf_cards": 5,
+ "H": 0.45
+}

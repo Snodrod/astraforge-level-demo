@@ -1,0 +1,38 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 1,
+    "animations": {
+     "static_S": {
+      "atlas_size": [
+       80,
+       80
+      ],
+      "frame_size": [
+       80,
+       80
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/tree_oak_2_v2_ecdce7ae/tree_oak_2_v2_ecdce7ae_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.44,
+ "log": "C:\\AstraForge\\library\\assets\\ecdce7ae-b446-42af-badf-51529af3000f\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

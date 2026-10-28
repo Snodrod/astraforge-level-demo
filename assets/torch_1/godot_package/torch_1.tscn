@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="torch_1.glb" id="1_model"]
+[ext_resource type="Script" path="af_fx_mount.gd" id="2_mount"]
+[ext_resource type="PackedScene" path="fx/fire.tscn" id="3_fx"]
+
+[node name="torch_1" type="Node3D"]
+script = ExtResource("2_mount")
+fx_bindings = [{
+"name": "fx_fire",
+"scene": ExtResource("3_fx"),
+"socket": "socket_fx_tip"
+}]
+autoplay_animation = ""
+metadata/astraforge = "{\"asset_id\": \"torch_1\", \"profile\": \"godot\", \"glb_forward\": \"+Z\", \"scene_forward\": \"+Z\", \"glb_forward_from\": \"manifest kind item\", \"generator\": \"astraforge-forge/godot_package\"}"
+
+[node name="model" parent="." instance=ExtResource("1_model")]

@@ -1,0 +1,25 @@
+{
+ "id": "chest",
+ "ppm": 22,
+ "src_ppm": 40.0,
+ "k": 0.55,
+ "cell": [
+  20,
+  20
+ ],
+ "anchor": [
+  10.0,
+  14.444444444444445
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

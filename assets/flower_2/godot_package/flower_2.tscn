@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="flower_2.glb" id="1_model"]
+[ext_resource type="Script" path="af_leaves_wind.gd" id="2_script"]
+[ext_resource type="Shader" path="leaves_wind.gdshader" id="3_shader"]
+[ext_resource type="Texture2D" path="flower_2_leaves.png" id="4_tex"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_leaves"]
+render_priority = 0
+shader = ExtResource("3_shader")
+shader_parameter/albedo_tex = ExtResource("4_tex")
+shader_parameter/alpha_scissor = 0.5
+shader_parameter/wind_direction = Vector3(1, 0, 0.35)
+shader_parameter/wind_strength = 0.07
+shader_parameter/wind_speed = 1.4
+shader_parameter/flutter = 0.025
+
+[node name="flower_2" type="Node3D"]
+script = ExtResource("2_script")
+leaf_material = SubResource("ShaderMaterial_leaves")
+metadata/astraforge = "{\"asset_id\": \"flower_2\", \"profile\": \"godot\", \"version\": \"v2\", \"leaves\": \"cards+alpha scissor+wind (UV2)\"}"
+
+[node name="model" parent="." instance=ExtResource("1_model")]

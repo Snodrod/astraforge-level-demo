@@ -1,0 +1,43 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 160,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "sparrow_v2_bced46b6"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites",
+  "asset": {
+    "id": "bced46b6-1a60-49a1-8e12-99c8b9ca7e4a",
+    "name": "sparrow_v2",
+    "kind": "creature",
+    "profile": {
+      "template": "auto"
+    }
+  },
+  "job": {
+    "id": "9eca58ad-998f-40af-803f-56d9f509665e",
+    "version": "v001",
+    "index": 1
+  }
+}

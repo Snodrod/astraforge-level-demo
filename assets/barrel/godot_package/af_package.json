@@ -1,0 +1,31 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "barrel",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "barrel.glb",
+ "glb_sha256": "49599ed93d49e8726ada4b948f3f456d9fe6be271019dec4abb69df146470092",
+ "source_glb": "C:\\AstraForge\\library\\assets\\daf335c0-ded6-42cb-b77c-0af0364f7a8b\\v001\\02_paint_from_concept\\painted.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [],
+ "pivots": [],
+ "clips": [],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.9041,
+  0.9,
+  0.8947
+ ],
+ "longest_m": 0.9041,
+ "tris": 1496,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

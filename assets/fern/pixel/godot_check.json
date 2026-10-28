@@ -1,0 +1,38 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 1,
+    "animations": {
+     "static_S": {
+      "atlas_size": [
+       56,
+       68
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/fern_v2_cf1ba6fa/fern_v2_cf1ba6fa_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.14,
+ "log": "C:\\AstraForge\\library\\assets\\cf1ba6fa-f6c2-47fb-99f9-ebadb0bcee5b\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

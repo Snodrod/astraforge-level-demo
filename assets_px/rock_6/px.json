@@ -1,0 +1,25 @@
+{
+ "id": "rock_6",
+ "ppm": 18,
+ "src_ppm": 24.0,
+ "k": 0.75,
+ "cell": [
+  48,
+  51
+ ],
+ "anchor": [
+  24.0,
+  36.0
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

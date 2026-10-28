@@ -1,0 +1,20 @@
+{
+ "asset_id": "tree_birch_1",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "leaves_wind.gdshader",
+  "tree_birch_1.glb",
+  "tree_birch_1.tscn",
+  "tree_birch_1_leaves.png"
+ ],
+ "trunk_tris": 1528,
+ "core_tris": 720,
+ "leaf_cards": 1500,
+ "leaf_tris": 3000,
+ "total_tris": 5248,
+ "H": 5.000000476837158,
+ "clusters": 9
+}

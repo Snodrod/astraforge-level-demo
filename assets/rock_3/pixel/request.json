@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\8fc97366-3a78-4488-9b62-626b330ce703\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\8fc97366-3a78-4488-9b62-626b330ce703\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 40,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "rock_3_v2_8fc97366"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\8fc97366-3a78-4488-9b62-626b330ce703\\v001\\01_render_sprites",
+  "asset": {
+    "id": "8fc97366-3a78-4488-9b62-626b330ce703",
+    "name": "rock_3_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "0c3b06e3-5a06-4205-8dfb-6c4fd4746549",
+    "version": "v001",
+    "index": 1
+  }
+}

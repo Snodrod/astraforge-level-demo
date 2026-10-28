@@ -1,0 +1,25 @@
+{
+ "id": "bridge",
+ "ppm": 32,
+ "src_ppm": 16.0,
+ "k": 2.0,
+ "cell": [
+  80,
+  120
+ ],
+ "anchor": [
+  40.0,
+  66.0
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

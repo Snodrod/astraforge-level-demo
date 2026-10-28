@@ -1,0 +1,31 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "log",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "log.glb",
+ "glb_sha256": "262097783b75a6bff74c9d99cc74beef9341f2f12a4f2143fd34cf49ca53f739",
+ "source_glb": "C:\\AstraForge\\library\\assets\\62fce766-804b-4097-a050-51ca8e1c7a6d\\v001\\02_paint_from_concept\\painted.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [],
+ "pivots": [],
+ "clips": [],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.4704,
+  0.5,
+  1.4447
+ ],
+ "longest_m": 1.4447,
+ "tris": 798,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

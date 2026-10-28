@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="house.glb" id="1_model"]
+[ext_resource type="Script" path="af_fx_mount.gd" id="2_mount"]
+[ext_resource type="PackedScene" path="fx/smoke.tscn" id="3_fx"]
+
+[node name="house" type="Node3D"]
+script = ExtResource("2_mount")
+fx_bindings = [{
+"name": "fx_smoke",
+"scene": ExtResource("3_fx"),
+"socket": "socket_fx_chimney"
+}]
+autoplay_animation = ""
+metadata/astraforge = "{\"asset_id\": \"house\", \"profile\": \"godot\", \"glb_forward\": \"-Z\", \"scene_forward\": \"-Z\", \"glb_forward_from\": \"manifest kind prop\", \"generator\": \"astraforge-forge/godot_package\"}"
+
+[node name="model" parent="." instance=ExtResource("1_model")]

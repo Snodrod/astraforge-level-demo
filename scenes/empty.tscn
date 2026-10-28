@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Shader" path="res://shaders/grid.gdshader" id="1_grid"]
+
+[sub_resource type="ShaderMaterial" id="grid_mat"]
+shader = ExtResource("1_grid")
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("grid_mat")
+size = Vector2(120, 120)
+
+[sub_resource type="Environment" id="env"]
+background_mode = 1
+background_color = Color(0.17, 0.18, 0.2, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.7, 0.72, 0.76, 1)
+ambient_light_energy = 0.6
+tonemap_mode = 2
+fog_enabled = true
+fog_light_color = Color(0.17, 0.18, 0.2, 1)
+fog_density = 0.035
+
+[node name="Empty" type="Node3D"]
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-50, 30, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(7, 5, 11)
+rotation_degrees = Vector3(-21, 32.5, 0)
+current = true
+fov = 55.0

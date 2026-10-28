@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\626bc508-5a68-408d-97b5-7e4d582a498c\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\626bc508-5a68-408d-97b5-7e4d582a498c\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 40,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "log_v2_626bc508"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\626bc508-5a68-408d-97b5-7e4d582a498c\\v001\\01_render_sprites",
+  "asset": {
+    "id": "626bc508-5a68-408d-97b5-7e4d582a498c",
+    "name": "log_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "45dd89d7-3a7a-4437-bfed-f79d7684bb36",
+    "version": "v001",
+    "index": 1
+  }
+}

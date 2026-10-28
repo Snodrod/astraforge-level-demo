@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\63d0a82a-e4e5-4fbf-99f6-ecc3d1f40905\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\63d0a82a-e4e5-4fbf-99f6-ecc3d1f40905\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 16,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "tree_apple_1_v2_63d0a82a"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\63d0a82a-e4e5-4fbf-99f6-ecc3d1f40905\\v001\\01_render_sprites",
+  "asset": {
+    "id": "63d0a82a-e4e5-4fbf-99f6-ecc3d1f40905",
+    "name": "tree_apple_1_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "1e6831df-8bf5-44b7-93fc-3977bcb74ff0",
+    "version": "v001",
+    "index": 1
+  }
+}

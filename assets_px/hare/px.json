@@ -1,0 +1,44 @@
+{
+ "id": "hare",
+ "ppm": 28,
+ "src_ppm": 64.0,
+ "k": 0.4375,
+ "cell": [
+  26,
+  28
+ ],
+ "anchor": [
+  13.0,
+  19.6875
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "hop": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.9,
+   "loop": true
+  },
+  "idle": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 4.0,
+   "loop": true
+  },
+  "run": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.5,
+   "loop": true
+  }
+ }
+}

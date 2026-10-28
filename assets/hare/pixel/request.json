@@ -1,0 +1,43 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\ee274f18-1a0e-40ac-88c5-b114ec45dec6\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\ee274f18-1a0e-40ac-88c5-b114ec45dec6\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 64,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "hare_v2_ee274f18"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\ee274f18-1a0e-40ac-88c5-b114ec45dec6\\v001\\01_render_sprites",
+  "asset": {
+    "id": "ee274f18-1a0e-40ac-88c5-b114ec45dec6",
+    "name": "hare_v2",
+    "kind": "creature",
+    "profile": {
+      "template": "auto"
+    }
+  },
+  "job": {
+    "id": "7b5b60a6-33c2-48b3-b6ae-d1b9542c52cd",
+    "version": "v001",
+    "index": 1
+  }
+}

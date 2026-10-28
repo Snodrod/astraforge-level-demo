@@ -1,0 +1,32 @@
+{
+ "id": "house",
+ "ppm": 16,
+ "src_ppm": 16.0,
+ "k": 1.0,
+ "cell": [
+  100,
+  100
+ ],
+ "anchor": [
+  50.0,
+  65.0
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

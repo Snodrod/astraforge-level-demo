@@ -1,0 +1,20 @@
+{
+ "asset_id": "tree_oak_3",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "leaves_wind.gdshader",
+  "tree_oak_3.glb",
+  "tree_oak_3.tscn",
+  "tree_oak_3_leaves.png"
+ ],
+ "trunk_tris": 1696,
+ "core_tris": 800,
+ "leaf_cards": 1698,
+ "leaf_tris": 3396,
+ "total_tris": 5892,
+ "H": 4.499999523162842,
+ "clusters": 10
+}

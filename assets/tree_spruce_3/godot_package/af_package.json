@@ -1,0 +1,20 @@
+{
+ "asset_id": "tree_spruce_3",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "leaves_wind.gdshader",
+  "tree_spruce_3.glb",
+  "tree_spruce_3.tscn",
+  "tree_spruce_3_leaves.png"
+ ],
+ "trunk_tris": 964,
+ "core_tris": 2600,
+ "leaf_cards": 1271,
+ "leaf_tris": 2542,
+ "total_tris": 6106,
+ "H": 5.499999523162842,
+ "clusters": 7
+}

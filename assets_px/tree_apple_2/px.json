@@ -1,0 +1,25 @@
+{
+ "id": "tree_apple_2",
+ "ppm": 16,
+ "src_ppm": 16.0,
+ "k": 1.0,
+ "cell": [
+  76,
+  76
+ ],
+ "anchor": [
+  38.0,
+  61.0
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

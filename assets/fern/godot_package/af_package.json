@@ -1,0 +1,21 @@
+{
+ "asset_id": "fern",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "fern.glb",
+  "fern.tscn",
+  "fern_leaves.png",
+  "leaves_wind.gdshader"
+ ],
+ "cards": 3,
+ "rows": 4,
+ "total_tris": 24,
+ "leaf_tris": 24,
+ "trunk_tris": 0,
+ "core_tris": 0,
+ "leaf_cards": 3,
+ "H": 0.8
+}

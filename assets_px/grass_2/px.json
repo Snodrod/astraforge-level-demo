@@ -1,0 +1,25 @@
+{
+ "id": "grass_2",
+ "ppm": 24,
+ "src_ppm": 64.0,
+ "k": 0.375,
+ "cell": [
+  22,
+  26
+ ],
+ "anchor": [
+  11.0,
+  18.735294117647058
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

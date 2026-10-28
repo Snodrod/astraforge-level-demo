@@ -1,0 +1,105 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "sparrow",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "sparrow.glb",
+ "glb_sha256": "72b3db1aea49e89dd0002b3ca88af2523d8190d69822fc5345b03942f8691e3a",
+ "source_glb": "C:\\AstraForge\\library\\assets\\f3c397f3-6ff9-46c9-bb7f-429138031047\\v001\\05_sculpt\\sculpt.glb",
+ "glb_forward": "+Z",
+ "glb_forward_from": "manifest kind creature",
+ "glb_forward_guessed": false,
+ "scene_forward": "+Z",
+ "model_rotated_180": false,
+ "sockets": [
+  {
+   "name": "socket_fx_head",
+   "node": "socket_fx_head",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_mouth",
+   "node": "socket_fx_mouth",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_tail",
+   "node": "socket_fx_tail",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "tail_02",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_mount_back",
+   "node": "socket_mount_back",
+   "kind": "mount",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "spine_01",
+   "has_game_socket": true,
+   "frame": null
+  }
+ ],
+ "pivots": [],
+ "clips": [
+  {
+   "name": "idle-loop",
+   "base": "idle",
+   "loop": true,
+   "package_name": "idle-loop",
+   "frames": [
+    0.0,
+    57.6
+   ]
+  },
+  {
+   "name": "walk-loop",
+   "base": "walk",
+   "loop": true,
+   "package_name": "walk-loop",
+   "frames": [
+    0.0,
+    16.0
+   ]
+  }
+ ],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.083,
+  0.1498,
+  0.1496
+ ],
+ "longest_m": 0.1498,
+ "tris": 5988,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection); hand rig + procedural clips"
+}

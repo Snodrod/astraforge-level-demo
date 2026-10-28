@@ -1,0 +1,25 @@
+{
+ "id": "flower_2",
+ "ppm": 26,
+ "src_ppm": 64.0,
+ "k": 0.40625,
+ "cell": [
+  15,
+  21
+ ],
+ "anchor": [
+  7.5,
+  14.942307692307692
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

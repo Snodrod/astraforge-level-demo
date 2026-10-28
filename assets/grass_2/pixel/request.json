@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\67e6e3eb-4d13-47ea-99c7-0351abef1417\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\67e6e3eb-4d13-47ea-99c7-0351abef1417\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 64,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "grass_2_v2_67e6e3eb"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\67e6e3eb-4d13-47ea-99c7-0351abef1417\\v001\\01_render_sprites",
+  "asset": {
+    "id": "67e6e3eb-4d13-47ea-99c7-0351abef1417",
+    "name": "grass_2_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "07a77e73-025f-4c50-90eb-7ef5779c63ac",
+    "version": "v001",
+    "index": 1
+  }
+}

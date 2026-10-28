@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\e082dd6f-9cad-4200-8736-ecd6d96c39e4\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\e082dd6f-9cad-4200-8736-ecd6d96c39e4\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 16,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "tree_birch_3_v2_e082dd6f"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\e082dd6f-9cad-4200-8736-ecd6d96c39e4\\v001\\01_render_sprites",
+  "asset": {
+    "id": "e082dd6f-9cad-4200-8736-ecd6d96c39e4",
+    "name": "tree_birch_3_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "c8922d1b-7666-40d8-86eb-a6fbd56c5384",
+    "version": "v001",
+    "index": 1
+  }
+}

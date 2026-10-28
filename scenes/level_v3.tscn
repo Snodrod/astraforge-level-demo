@@ -1,0 +1,88 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/level_v3.gd" id="1_level"]
+[ext_resource type="Script" path="res://scripts/shot_director.gd" id="2_main"]
+[ext_resource type="Shader" path="res://shaders/sky.gdshader" id="3_sky"]
+
+[sub_resource type="ShaderMaterial" id="sky_mat"]
+shader = ExtResource("3_sky")
+shader_parameter/top_color = Color(0.22, 0.48, 0.9, 1)
+shader_parameter/horizon_color = Color(0.78, 0.88, 0.97, 1)
+shader_parameter/ground_color = Color(0.45, 0.58, 0.38, 1)
+shader_parameter/cloud_cover = 0.56
+
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_mat")
+process_mode = 2
+
+[sub_resource type="Environment" id="env"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+ambient_light_energy = 1.05
+reflected_light_source = 2
+tonemap_mode = 3
+tonemap_exposure = 1.0
+tonemap_white = 6.0
+ssao_enabled = true
+ssao_radius = 1.6
+ssao_intensity = 2.2
+ssao_power = 1.6
+ssil_enabled = true
+ssil_radius = 5.0
+ssil_intensity = 1.1
+glow_enabled = true
+glow_intensity = 0.5
+glow_strength = 1.0
+glow_bloom = 0.08
+glow_hdr_threshold = 0.9
+fog_enabled = true
+fog_light_color = Color(0.78, 0.86, 0.95, 1)
+fog_density = 0.0011
+fog_sky_affect = 0.3
+fog_aerial_perspective = 0.5
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0025
+volumetric_fog_albedo = Color(1, 0.96, 0.88, 1)
+volumetric_fog_length = 90.0
+volumetric_fog_anisotropy = 0.6
+adjustment_enabled = true
+adjustment_contrast = 1.12
+adjustment_saturation = 1.18
+
+[sub_resource type="CameraAttributesPractical" id="cam_attr"]
+dof_blur_far_enabled = true
+dof_blur_far_distance = 90.0
+dof_blur_far_transition = 40.0
+dof_blur_amount = 0.05
+
+[node name="LevelV3" type="Node3D"]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-40, -38, 0)
+light_color = Color(1, 0.92, 0.78, 1)
+light_energy = 1.75
+light_angular_distance = 1.2
+light_volumetric_fog_energy = 1.2
+shadow_enabled = true
+shadow_bias = 0.03
+shadow_normal_bias = 1.6
+shadow_blur = 1.4
+directional_shadow_max_distance = 120.0
+directional_shadow_blend_splits = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Level" type="Node3D" parent="."]
+script = ExtResource("1_level")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(30, 11, 30)
+current = true
+fov = 55.0
+far = 500.0
+attributes = SubResource("cam_attr")
+script = ExtResource("2_main")
+
+

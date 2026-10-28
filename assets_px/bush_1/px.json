@@ -1,0 +1,25 @@
+{
+ "id": "bush_1",
+ "ppm": 20,
+ "src_ppm": 32.0,
+ "k": 0.625,
+ "cell": [
+  40,
+  35
+ ],
+ "anchor": [
+  20.0,
+  25.625
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "house",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "house.glb",
+ "glb_sha256": "ba8a92a7a48cf49ae6a851fe6be885b7b05514b4dd5af2f24f5b1ad39d453848",
+ "source_glb": "C:\\AstraForge\\library\\assets\\ec6cc093-37f8-4536-b804-13e95ee45b5f\\source\\source.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [
+  {
+   "name": "socket_fx_chimney",
+   "node": "socket_fx_chimney",
+   "kind": null,
+   "size_class": null,
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": null,
+   "parent_bone": null,
+   "has_game_socket": true,
+   "frame": null
+  }
+ ],
+ "pivots": [],
+ "clips": [],
+ "fx": [
+  {
+   "preset": "smoke",
+   "socket": "socket_fx_chimney",
+   "file": "smoke.tscn",
+   "node_name": "fx_smoke",
+   "params": {},
+   "scale": 1.47,
+   "scale_source": "asset longest axis 4.41 m / preset 3 m",
+   "quad_size_m": 1.323,
+   "visibility_aabb": [
+    -5.88,
+    -5.88,
+    -5.88,
+    11.76,
+    11.76,
+    11.76
+   ]
+  }
+ ],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  4.4122,
+  4.0,
+  4.361
+ ],
+ "longest_m": 4.4122,
+ "tris": 14970,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

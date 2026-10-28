@@ -1,0 +1,337 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 24,
+    "animations": {
+     "idle_E": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_N": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_NE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_NW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_S": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_SE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_SW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_W": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_E": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_N": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_NE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_NW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_S": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_SE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_SW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "run_W": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_E": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_N": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_NE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_NW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_S": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_SE": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_SW": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "walk_W": {
+      "atlas_size": [
+       448,
+       544
+      ],
+      "frame_size": [
+       56,
+       68
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/deer_v2_828dba77/deer_v2_828dba77_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.15,
+ "log": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

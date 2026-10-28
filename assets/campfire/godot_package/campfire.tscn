@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="campfire.glb" id="1_model"]
+[ext_resource type="Script" path="af_fx_mount.gd" id="2_mount"]
+[ext_resource type="PackedScene" path="fx/fire.tscn" id="3_fx"]
+[ext_resource type="PackedScene" path="fx/sparks.tscn" id="4_fx"]
+
+[node name="campfire" type="Node3D"]
+script = ExtResource("2_mount")
+fx_bindings = [{
+"name": "fx_fire",
+"scene": ExtResource("3_fx"),
+"socket": "socket_fx_fire"
+}, {
+"name": "fx_sparks",
+"scene": ExtResource("4_fx"),
+"socket": "socket_fx_fire"
+}]
+autoplay_animation = ""
+metadata/astraforge = "{\"asset_id\": \"campfire\", \"profile\": \"godot\", \"glb_forward\": \"-Z\", \"scene_forward\": \"-Z\", \"glb_forward_from\": \"manifest kind prop\", \"generator\": \"astraforge-forge/godot_package\"}"
+
+[node name="model" parent="." instance=ExtResource("1_model")]

@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\cf1ba6fa-f6c2-47fb-99f9-ebadb0bcee5b\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\cf1ba6fa-f6c2-47fb-99f9-ebadb0bcee5b\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 48,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "fern_v2_cf1ba6fa"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\cf1ba6fa-f6c2-47fb-99f9-ebadb0bcee5b\\v001\\01_render_sprites",
+  "asset": {
+    "id": "cf1ba6fa-f6c2-47fb-99f9-ebadb0bcee5b",
+    "name": "fern_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "5b2e1372-6152-4d5d-a5f4-2ce378e658a4",
+    "version": "v001",
+    "index": 1
+  }
+}

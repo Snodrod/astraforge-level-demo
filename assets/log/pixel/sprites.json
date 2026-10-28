@@ -1,0 +1,146 @@
+{
+ "format": "astraforge-sprites/1",
+ "asset_id": "log_v2_626bc508",
+ "profile": "pixel",
+ "projection": "orthographic",
+ "px_per_meter": 40.0,
+ "elevation_deg": 40.0,
+ "cell": [
+  32,
+  64
+ ],
+ "anchor": [
+  16.0,
+  37.0
+ ],
+ "pivot_note": "anchor = projected world origin (ground point under the character after feet centering); root_px = projected hips ground point; feet_px = projected ground points of the foot bones (feet_bones order), feet_mid_px = their middle",
+ "godot_offset": [
+  0.0,
+  -5.0
+ ],
+ "cell_adapted": null,
+ "engine": "BLENDER_EEVEE",
+ "device": "gpu",
+ "shadow": false,
+ "forward": "+Y",
+ "forward_from": "manifest kind prop",
+ "views": [
+  {
+   "name": "S",
+   "model_yaw_deg": 180.0
+  }
+ ],
+ "normalization": {
+  "scale": 1.0,
+  "offset_m": [
+   0.0432,
+   0.0686,
+   -0.0
+  ],
+  "pose": "rest",
+  "height_in_m": 0.5,
+  "height_m": 0.5,
+  "rest_height_m": 0.5
+ },
+ "clips": {
+  "static": {
+   "action": null,
+   "loop": false,
+   "fps": 8.0,
+   "frames": 1,
+   "source_range": [
+    1,
+    1
+   ],
+   "source_fps": 24,
+   "source_duration_s": 0.0,
+   "time_scale": 1.0,
+   "in_place": "none",
+   "root_bone": null,
+   "cols": 1,
+   "layout": "stacked",
+   "feet_bones": [],
+   "views": {
+    "S": {
+     "sheet": "static.png",
+     "model_yaw_deg": 180.0,
+     "animation": "static_S",
+     "rects": [
+      [
+       0,
+       0,
+       32,
+       64
+      ]
+     ],
+     "root_px": []
+    }
+   }
+  }
+ },
+ "sheets": [
+  "static.png"
+ ],
+ "pixel": {
+  "palette": [
+   "#1d1716",
+   "#413432",
+   "#513a30",
+   "#533d34",
+   "#5b4134",
+   "#56423c",
+   "#5e4538",
+   "#5e4740",
+   "#684736",
+   "#644b3f",
+   "#6d4c38",
+   "#664e44",
+   "#6b5044",
+   "#74523c",
+   "#735446",
+   "#785743",
+   "#7a5841",
+   "#66643d",
+   "#7e5941",
+   "#795a49",
+   "#795d4d",
+   "#815e46",
+   "#835f4c",
+   "#87644e",
+   "#866652",
+   "#8f674e",
+   "#926a51",
+   "#936c53",
+   "#977055",
+   "#9c7458",
+   "#9f7859",
+   "#a37858",
+   "#a07a5c",
+   "#a37c5f",
+   "#a67c5c",
+   "#aa7c59",
+   "#a87e60",
+   "#aa8260",
+   "#b0825f",
+   "#b38562",
+   "#b48766",
+   "#b98963",
+   "#ae9177",
+   "#bc8d68",
+   "#be916b",
+   "#bc936e",
+   "#aa9886",
+   "#c6976f"
+  ],
+  "colors": 48,
+  "palette_source": "auto",
+  "outline": "auto",
+  "dither": false,
+  "alpha_threshold": 128,
+  "supersample": 3,
+  "downscale": 1,
+  "reduce": "box",
+  "render_scale": 3,
+  "texture_filter": "nearest"
+ }
+}

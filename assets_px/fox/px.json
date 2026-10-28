@@ -1,0 +1,44 @@
+{
+ "id": "fox",
+ "ppm": 28,
+ "src_ppm": 56.0,
+ "k": 0.5,
+ "cell": [
+  26,
+  28
+ ],
+ "anchor": [
+  13.0,
+  19.5
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "idle": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 3.0,
+   "loop": true
+  },
+  "run": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.5,
+   "loop": true
+  },
+  "walk": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 1.0,
+   "loop": true
+  }
+ }
+}

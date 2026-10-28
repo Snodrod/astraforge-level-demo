@@ -1,0 +1,115 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "deer",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "deer.glb",
+ "glb_sha256": "7245e72d1f1e10e356060fdb78f189258901171c902eee812ed6b6e0142d4371",
+ "source_glb": "C:\\AstraForge\\library\\assets\\d36e90e7-4e03-445c-af61-7366212b2030\\v001\\05_sculpt\\sculpt.glb",
+ "glb_forward": "+Z",
+ "glb_forward_from": "manifest kind creature",
+ "glb_forward_guessed": false,
+ "scene_forward": "+Z",
+ "model_rotated_180": false,
+ "sockets": [
+  {
+   "name": "socket_fx_head",
+   "node": "socket_fx_head",
+   "kind": "fx",
+   "size_class": "M",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_mouth",
+   "node": "socket_fx_mouth",
+   "kind": "fx",
+   "size_class": "M",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_tail",
+   "node": "socket_fx_tail",
+   "kind": "fx",
+   "size_class": "M",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "tail_02",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_mount_back",
+   "node": "socket_mount_back",
+   "kind": "mount",
+   "size_class": "M",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "spine_02",
+   "has_game_socket": true,
+   "frame": null
+  }
+ ],
+ "pivots": [],
+ "clips": [
+  {
+   "name": "idle-loop",
+   "base": "idle",
+   "loop": true,
+   "package_name": "idle-loop",
+   "frames": [
+    0.0,
+    57.6
+   ]
+  },
+  {
+   "name": "run-loop",
+   "base": "run",
+   "loop": true,
+   "package_name": "run-loop",
+   "frames": [
+    0.0,
+    16.0
+   ]
+  },
+  {
+   "name": "walk-loop",
+   "base": "walk",
+   "loop": true,
+   "package_name": "walk-loop",
+   "frames": [
+    0.0,
+    25.6
+   ]
+  }
+ ],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.4527,
+  1.6,
+  1.2658
+ ],
+ "longest_m": 1.6,
+ "tris": 7984,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection); hand rig + procedural clips"
+}

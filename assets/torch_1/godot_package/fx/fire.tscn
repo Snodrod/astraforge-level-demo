@@ -1,0 +1,80 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="textures/soft.png" id="1_tex"]
+
+[sub_resource type="Gradient" id="Gradient_ramp"]
+offsets = PackedFloat32Array(0, 0.3, 0.7, 1)
+colors = PackedColorArray(1, 0.95, 0.6, 1, 1, 0.55, 0.1, 0.9, 0.8, 0.15, 0.02, 0.5, 0.2, 0.05, 0.02, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ramp"]
+gradient = SubResource("Gradient_ramp")
+
+[sub_resource type="Curve" id="Curve_scale"]
+max_value = 1
+_data = [Vector2(0, 0.4), 0.0, 0.0, 0, 0, Vector2(0.25, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_scale"]
+curve = SubResource("Curve_scale")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fx"]
+particle_flag_disable_z = false
+emission_shape = 1
+emission_sphere_radius = 0.04284
+direction = Vector3(0, 1, 0)
+spread = 12
+initial_velocity_min = 0.2142
+initial_velocity_max = 0.357
+gravity = Vector3(0, 0.5355, 0)
+damping_min = 0.1785
+damping_max = 0.357
+tangential_accel_min = 0
+tangential_accel_max = 0
+radial_accel_min = 0
+radial_accel_max = 0
+angle_min = 0
+angle_max = 0
+angular_velocity_min = 0
+angular_velocity_max = 0
+scale_min = 0.7
+scale_max = 1.2
+scale_curve = SubResource("CurveTexture_scale")
+color_ramp = SubResource("GradientTexture1D_ramp")
+hue_variation_min = 0
+hue_variation_max = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fx"]
+transparency = 1
+blend_mode = 1
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_tex")
+billboard_mode = 3
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_fx"]
+material = SubResource("StandardMaterial3D_fx")
+size = Vector2(0.12495, 0.12495)
+
+[node name="fire" type="GPUParticles3D"]
+emitting = true
+amount = 48
+lifetime = 0.8
+one_shot = false
+explosiveness = 0
+randomness = 0
+speed_scale = 1
+local_coords = false
+fixed_fps = 30
+visibility_aabb = AABB(-1.428, -1.428, -1.428, 2.856, 2.856, 2.856)
+process_material = SubResource("ParticleProcessMaterial_fx")
+draw_pass_1 = SubResource("QuadMesh_fx")
+metadata/astraforge_fx = "fire"
+
+[node name="light" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.6, 0.25, 1)
+light_energy = 1.5
+omni_range = 1.071
+shadow_enabled = false

@@ -1,0 +1,43 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\a0a5eba9-fe63-4ffc-a149-a2e74222b12a\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\a0a5eba9-fe63-4ffc-a149-a2e74222b12a\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 64,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "crow_v2_a0a5eba9"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\a0a5eba9-fe63-4ffc-a149-a2e74222b12a\\v001\\01_render_sprites",
+  "asset": {
+    "id": "a0a5eba9-fe63-4ffc-a149-a2e74222b12a",
+    "name": "crow_v2",
+    "kind": "creature",
+    "profile": {
+      "template": "auto"
+    }
+  },
+  "job": {
+    "id": "918bf2e2-7d2d-4ac7-a787-21fd1f7693ae",
+    "version": "v001",
+    "index": 1
+  }
+}

@@ -1,0 +1,1729 @@
+{
+ "generated": "2026-10-28",
+ "style": "stylized cartoon game asset, hand-painted textures (SDXL concept -> Hunyuan3D standard -> cleanup -> paint_from_concept -> godot_package; pixel: render_sprites profile pixel 40deg)",
+ "assets": [
+  {
+   "name": "barrel",
+   "type": "prop",
+   "status": "ok",
+   "triangles": 1496,
+   "budget_tris": 1500,
+   "height_m": 0.9,
+   "concept": "assets\\barrel\\concept.png",
+   "raw_model": "assets\\barrel\\raw.glb",
+   "final_glb": "assets\\barrel\\model_v2.glb",
+   "godot_package": "assets\\barrel\\godot_package_v2",
+   "pixel_dir": "assets\\barrel\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\barrel\\preview.png",
+   "gen3d_job_id": "24d61aff-e139-4e9a-91d2-822a0b1c552f",
+   "forge_asset_id": "daf335c0-ded6-42cb-b77c-0af0364f7a8b",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 552,
+   "concept_candidate": "barrel/d_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\barrel_turn.png",
+   "final_glb_v1": "assets\\barrel\\model.glb",
+   "godot_package_v1": "assets\\barrel\\godot_package",
+   "pixel_dir_v1": "assets\\barrel\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1496,
+   "budget_tris_v1": 1500,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "bridge",
+   "type": "prop",
+   "status": "ok",
+   "triangles": 5988,
+   "budget_tris": 6000,
+   "height_m": 1.6,
+   "concept": "assets\\bridge\\concept.png",
+   "raw_model": "assets\\bridge\\raw.glb",
+   "final_glb": "assets\\bridge\\model_v2.glb",
+   "godot_package": "assets\\bridge\\godot_package_v2",
+   "pixel_dir": "assets\\bridge\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\bridge\\preview.png",
+   "gen3d_job_id": "914a8b75-7b4e-4669-b24a-a45cdfa108e5",
+   "forge_asset_id": "ece082e1-7dc7-4efa-a8fa-e47a9df4d9d9",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 534,
+   "concept_candidate": "bridge/d_1.png",
+   "notes": "second try: concept d_1 (sturdier railings) after try1 had torn railings",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\bridge_turn.png",
+   "final_glb_v1": "assets\\bridge\\model.glb",
+   "godot_package_v1": "assets\\bridge\\godot_package",
+   "pixel_dir_v1": "assets\\bridge\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 5988,
+   "budget_tris_v1": 6000,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены; на настиле светлые штрихи"
+   }
+  },
+  {
+   "name": "bush_1",
+   "type": "bush",
+   "status": "ok",
+   "triangles": 818,
+   "budget_tris": 1000,
+   "height_m": 1.0,
+   "concept": "assets\\bush_1\\concept.png",
+   "raw_model": "assets\\bush_1\\raw.glb",
+   "final_glb": "assets\\bush_1\\model_v2.glb",
+   "godot_package": "assets\\bush_1\\godot_package_v2",
+   "pixel_dir": "assets\\bush_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 32,
+   "preview": "assets\\bush_1\\preview.png",
+   "gen3d_job_id": "16d2bb33-d65b-4565-9ff3-3f56d2cc945d",
+   "forge_asset_id": "a8580a09-6875-43cc-9568-253b373f1ac8",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 541,
+   "concept_candidate": "bush_a/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\bush_1_turn.png",
+   "final_glb_v1": "assets\\bush_1\\model.glb",
+   "godot_package_v1": "assets\\bush_1\\godot_package",
+   "pixel_dir_v1": "assets\\bush_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 998,
+   "budget_tris_v1": 1000,
+   "clips_v1": null,
+   "v2": {
+    "done": "листовые карточки (атлас SDXL) на тёмной подложке",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "bush_2",
+   "type": "bush",
+   "status": "ok",
+   "triangles": 2783,
+   "budget_tris": 1000,
+   "height_m": 0.9,
+   "concept": "assets\\bush_2\\concept.png",
+   "raw_model": "assets\\bush_2\\raw.glb",
+   "final_glb": "assets\\bush_2\\model.glb",
+   "godot_package": "assets\\bush_2\\godot_package",
+   "pixel_dir": "assets\\bush_2\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 32.0,
+   "preview": "assets\\bush_2\\preview.png",
+   "gen3d_job_id": "758ce524-0377-4c4f-b0be-f141ca6cd0b4",
+   "forge_asset_id": "14897a04-9bd8-480a-a000-10a569781d7f",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 542,
+   "concept_candidate": "bush_b/d_3.png",
+   "notes": null,
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 1000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 2794, \"error\"], [\"silhouette_iou\", false, 0.6538, \"warning\"], [\"silhouette_iou_min\", false, 0.6538, \"error\"], [\"render_color_mae\", false,",
+    "attempt2 cleanup/paint failed with budget 1000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 1830, \"error\"], [\"silhouette_iou\", false, 0.6181, \"warning\"], [\"silhouette_iou_min\", false, 0.6181, \"error\"], [\"render_color_mae\", false,",
+    "attempt3 cleanup/paint failed with budget 1600: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 1830, \"error\"], [\"silhouette_iou\", false, 0.6181, \"warning\"], [\"silhouette_iou_min\", false, 0.6181, \"error\"], [\"render_color_mae\", false,",
+    "thin pipeline: cleanup 19960 -> 3x decimate ratio 0.369 -> paint",
+    "budget 1000 NOT met: 2783 tris"
+   ],
+   "budget_met": false,
+   "qa_turn": null,
+   "v2": null
+  },
+  {
+   "name": "campfire",
+   "type": "prop+fx",
+   "status": "ok",
+   "triangles": 2494,
+   "budget_tris": 2500,
+   "height_m": 0.5,
+   "concept": "assets\\campfire\\concept.png",
+   "raw_model": "assets\\campfire\\raw.glb",
+   "final_glb": "assets\\campfire\\model_v2.glb",
+   "godot_package": "assets\\campfire\\godot_package_v2",
+   "pixel_dir": "assets\\campfire\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\campfire\\preview.png",
+   "gen3d_job_id": "99d64537-d8e9-4fcb-a7d5-92ce369ef3f5",
+   "forge_asset_id": "b771f3b2-9361-4b95-bbaa-c3a58e3c3b60",
+   "fx": [
+    {
+     "preset": "fire",
+     "socket": "socket_fx_fire"
+    },
+    {
+     "preset": "sparks",
+     "socket": "socket_fx_fire"
+    }
+   ],
+   "clips": null,
+   "template": null,
+   "seed": 533,
+   "concept_candidate": "campfire/e_4.png",
+   "notes": " fx in Godot package: [{\"preset\": \"fire\", \"socket\": \"socket_fx_fire\"}, {\"preset\": \"sparks\", \"socket\": \"socket_fx_fire\"}]",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\campfire_turn.png",
+   "final_glb_v1": "assets\\campfire\\model.glb",
+   "godot_package_v1": "assets\\campfire\\godot_package",
+   "pixel_dir_v1": "assets\\campfire\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 2494,
+   "budget_tris_v1": 2500,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2, сокет огня сохранён",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "chest",
+   "type": "prop",
+   "status": "ok",
+   "triangles": 1996,
+   "budget_tris": 2000,
+   "height_m": 0.6,
+   "concept": "assets\\chest\\concept.png",
+   "raw_model": "assets\\chest\\raw.glb",
+   "final_glb": "assets\\chest\\model_v2.glb",
+   "godot_package": "assets\\chest\\godot_package_v2",
+   "pixel_dir": "assets\\chest\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\chest\\preview.png",
+   "gen3d_job_id": "9dae53d0-c797-4812-a12d-b025f80301fd",
+   "forge_asset_id": "04d5dd27-5ffd-4c66-9945-9e0c5ee01811",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 554,
+   "concept_candidate": "chest/d_3.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\chest_turn.png",
+   "final_glb_v1": "assets\\chest\\model.glb",
+   "godot_package_v1": "assets\\chest\\godot_package",
+   "pixel_dir_v1": "assets\\chest\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1996,
+   "budget_tris_v1": 2000,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "crate",
+   "type": "prop",
+   "status": "ok",
+   "triangles": 798,
+   "budget_tris": 800,
+   "height_m": 0.8,
+   "concept": "assets\\crate\\concept.png",
+   "raw_model": "assets\\crate\\raw.glb",
+   "final_glb": "assets\\crate\\model_v2.glb",
+   "godot_package": "assets\\crate\\godot_package_v2",
+   "pixel_dir": "assets\\crate\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\crate\\preview.png",
+   "gen3d_job_id": "5fb7b06a-d4ef-4d1d-ba43-6c7eb78de000",
+   "forge_asset_id": "f2f0100f-32a3-441f-8799-d9afefe67eea",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 553,
+   "concept_candidate": "crate/d_3.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\crate_turn.png",
+   "final_glb_v1": "assets\\crate\\model.glb",
+   "godot_package_v1": "assets\\crate\\godot_package",
+   "pixel_dir_v1": "assets\\crate\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 798,
+   "budget_tris_v1": 800,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "crow",
+   "type": "animal",
+   "status": "ok",
+   "triangles": 5988,
+   "budget_tris": 6000,
+   "height_m": 0.45,
+   "concept": "assets\\crow\\concept.png",
+   "raw_model": "assets\\crow\\raw.glb",
+   "final_glb": "assets\\crow\\model_v2.glb",
+   "godot_package": "assets\\crow\\godot_package_v2",
+   "pixel_dir": "assets\\crow\\pixel_v2",
+   "pixel_sheets": [
+    "fly.png",
+    "glide.png",
+    "idle.png"
+   ],
+   "pixel_ppm": null,
+   "preview": "assets\\crow\\preview_paint.png",
+   "gen3d_job_id": "47785709-5048-4d33-bc7f-0a7c9db96c58",
+   "forge_asset_id": "2a74028b-4fc0-4b9e-a18f-1a40bc1c2b6c",
+   "fx": null,
+   "clips": [
+    "idle-loop",
+    "fly-loop",
+    "glide-loop"
+   ],
+   "template": "hand rig (Blender bpy) + procedural clips",
+   "seed": 817,
+   "concept_candidate": "crow/g_2.png",
+   "notes": " spread-wing mesh, template winged_quadruped: fly/glide/idle clips; no hop",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\crow_turn.png",
+   "final_glb_v1": "assets\\crow\\model_final.glb",
+   "godot_package_v1": "assets\\crow\\godot_package",
+   "pixel_dir_v1": "assets\\crow\\pixel",
+   "pixel_sheets_v1": [
+    "fly.png",
+    "glide.png",
+    "idle.png"
+   ],
+   "triangles_v1": 5988,
+   "budget_tris_v1": 6000,
+   "clips_v1": [
+    "idle-loop",
+    "fly-loop",
+    "glide-loop"
+   ],
+   "qa_rig": "assets\\qa\\crow_rig.png",
+   "qa_clips": [
+    "assets\\qa\\crow_idle-loop.png",
+    "assets\\qa\\crow_fly-loop.png",
+    "assets\\qa\\crow_glide-loop.png"
+   ],
+   "rig_blend": "assets\\_v2\\crow\\rig\\crow_rig.blend",
+   "v2": {
+    "done": "покраска 8 видов; крыло плечо-локоть-кисть, fly (быстрый удар вниз), glide, лапы поджаты",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "deer",
+   "type": "animal",
+   "status": "ok",
+   "triangles": 7984,
+   "budget_tris": 8000,
+   "height_m": 1.6,
+   "concept": "assets\\deer\\concept.png",
+   "raw_model": "assets\\deer\\raw.glb",
+   "final_glb": "assets\\deer\\model_v2.glb",
+   "godot_package": "assets\\deer\\godot_package_v2",
+   "pixel_dir": "assets\\deer\\pixel_v2",
+   "pixel_sheets": [
+    "idle.png",
+    "run.png",
+    "walk.png"
+   ],
+   "pixel_ppm": null,
+   "preview": "assets\\deer\\preview_paint.png",
+   "gen3d_job_id": "30ecd361-16c2-493f-97e1-89f0cd45ebc8",
+   "forge_asset_id": "d36e90e7-4e03-445c-af61-7366212b2030",
+   "fx": null,
+   "clips": [
+    "idle-loop",
+    "walk-loop",
+    "run-loop"
+   ],
+   "template": "hand rig (Blender bpy) + procedural clips",
+   "seed": 811,
+   "concept_candidate": "deer/d_4.png",
+   "notes": null,
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\deer_turn.png",
+   "final_glb_v1": "assets\\deer\\model_final.glb",
+   "godot_package_v1": "assets\\deer\\godot_package",
+   "pixel_dir_v1": "assets\\deer\\pixel",
+   "pixel_sheets_v1": [
+    "idle.png",
+    "run.png",
+    "walk.png"
+   ],
+   "triangles_v1": 7984,
+   "budget_tris_v1": 8000,
+   "clips_v1": null,
+   "qa_rig": "assets\\qa\\deer_rig.png",
+   "qa_clips": [
+    "assets\\qa\\deer_idle-loop.png",
+    "assets\\qa\\deer_walk-loop.png",
+    "assets\\qa\\deer_run-loop.png"
+   ],
+   "rig_blend": "assets\\_v2\\deer\\rig\\deer_rig.blend",
+   "v2": {
+    "done": "покраска 8 видов + зеркало бока; риг вручную, idle/walk (диагональ)/run; шов по хребту залит (заливка швов UV)",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "fern",
+   "type": "plant",
+   "status": "ok",
+   "triangles": 24,
+   "budget_tris": 1500,
+   "height_m": 0.8,
+   "concept": "assets\\fern\\concept.png",
+   "raw_model": "assets\\fern\\raw.glb",
+   "final_glb": "assets\\fern\\model_v2.glb",
+   "godot_package": "assets\\fern\\godot_package_v2",
+   "pixel_dir": "assets\\fern\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 48,
+   "preview": "assets\\fern\\preview.png",
+   "gen3d_job_id": "913f3006-12ee-4c0a-a2b2-276ffebaa74d",
+   "forge_asset_id": "179f75cd-9730-47a4-8ad1-b3b7508d57b5",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 514,
+   "concept_candidate": "fern/e_1.png",
+   "notes": "try2: concept e_1",
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 1500: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 2284, \"error\"], [\"silhouette_iou\", false, 0.6718, \"warning\"], [\"silhouette_iou_min\", false, 0.6718, \"error\"], [\"render_color_mae\", false,"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\fern_turn.png",
+   "final_glb_v1": "assets\\fern\\model.glb",
+   "godot_package_v1": "assets\\fern\\godot_package",
+   "pixel_dir_v1": "assets\\fern\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1496,
+   "budget_tris_v1": 1500,
+   "clips_v1": null,
+   "v2": {
+    "done": "перекрёстные альфа-карточки из концепта",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "flower_1",
+   "type": "flower",
+   "status": "ok",
+   "triangles": 16,
+   "budget_tris": 200,
+   "height_m": 0.5,
+   "concept": "assets\\flower_1\\concept.png",
+   "raw_model": "assets\\flower_1\\raw.glb",
+   "final_glb": "assets\\flower_1\\model_v2.glb",
+   "godot_package": "assets\\flower_1\\godot_package_v2",
+   "pixel_dir": "assets\\flower_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\flower_1\\preview.png",
+   "gen3d_job_id": "75b6d1bd-764b-4022-9a0f-52cdf77182c0",
+   "forge_asset_id": "085f1cde-5787-4fc4-a0ab-d81eedda089f",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 511,
+   "concept_candidate": "flower_a/d_4.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\flower_1_turn.png",
+   "final_glb_v1": "assets\\flower_1\\model.glb",
+   "godot_package_v1": "assets\\flower_1\\godot_package",
+   "pixel_dir_v1": "assets\\flower_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 198,
+   "budget_tris_v1": 200,
+   "clips_v1": null,
+   "v2": {
+    "done": "перекрёстные альфа-карточки из концепта",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "flower_2",
+   "type": "flower",
+   "status": "ok",
+   "triangles": 16,
+   "budget_tris": 200,
+   "height_m": 0.5,
+   "concept": "assets\\flower_2\\concept.png",
+   "raw_model": "assets\\flower_2\\raw.glb",
+   "final_glb": "assets\\flower_2\\model_v2.glb",
+   "godot_package": "assets\\flower_2\\godot_package_v2",
+   "pixel_dir": "assets\\flower_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\flower_2\\preview.png",
+   "gen3d_job_id": "375472e9-3b49-4e0b-a792-0a8207084cba",
+   "forge_asset_id": "48577d1e-eb29-4e64-8a6e-cca7e99495c9",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 512,
+   "concept_candidate": "flower_b/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\flower_2_turn.png",
+   "final_glb_v1": "assets\\flower_2\\model.glb",
+   "godot_package_v1": "assets\\flower_2\\godot_package",
+   "pixel_dir_v1": "assets\\flower_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 198,
+   "budget_tris_v1": 200,
+   "clips_v1": null,
+   "v2": {
+    "done": "перекрёстные альфа-карточки из концепта",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "fox",
+   "type": "animal",
+   "status": "ok",
+   "triangles": 5832,
+   "budget_tris": 6000,
+   "height_m": 0.5,
+   "concept": "assets\\_v2\\fox\\concept_v3.png",
+   "raw_model": "assets\\fox\\raw.glb",
+   "final_glb": "assets\\fox\\model_v2.glb",
+   "godot_package": "assets\\fox\\godot_package_v2",
+   "pixel_dir": "assets\\fox\\pixel_v2",
+   "pixel_sheets": [
+    "idle.png",
+    "run.png",
+    "walk.png"
+   ],
+   "pixel_ppm": null,
+   "preview": "assets\\fox\\preview_paint.png",
+   "gen3d_job_id": "f00a6ee0-cabc-499e-8a7d-9cc01f843518",
+   "forge_asset_id": "ddc5e826-bfd0-433e-b206-a32193bdc8b7",
+   "fx": null,
+   "clips": [
+    "idle-loop",
+    "walk-loop",
+    "run-loop"
+   ],
+   "template": "hand rig (Blender bpy) + procedural clips",
+   "seed": 816,
+   "concept_candidate": "fox/d_4.png",
+   "notes": null,
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\fox_turn_v3.png",
+   "final_glb_v1": "assets\\fox\\model_final.glb",
+   "godot_package_v1": "assets\\fox\\godot_package",
+   "pixel_dir_v1": "assets\\fox\\pixel",
+   "pixel_sheets_v1": [
+    "idle.png",
+    "run.png",
+    "walk.png"
+   ],
+   "triangles_v1": 5988,
+   "budget_tris_v1": 6000,
+   "clips_v1": [
+    "idle-loop",
+    "walk-loop",
+    "run-loop"
+   ],
+   "qa_rig": "assets\\qa\\fox_rig_v3.png",
+   "qa_clips": [
+    "assets\\qa\\fox_idle_v3.png",
+    "assets\\qa\\fox_walk_v3.png",
+    "assets\\qa\\fox_run_v3.png"
+   ],
+   "rig_blend": "assets\\_v2\\fox\\rig3\\fox_rig.blend",
+   "version": "v3",
+   "qa_mp4": [
+    "assets\\qa\\fox_walk_v3.mp4"
+   ],
+   "qa_heads": "assets\\qa\\fox_hare_heads_v3.png",
+   "v2": {
+    "done": "v3: новый концепт в профиль → Hunyuan3D, 5,8 тыс. тр.; покраска зонами (оранжевый, белые грудь/щёки/кончик хвоста, тёмные лапы и уши) + тайл шерсти, глаза — 2 сферы; idle/walk (диагональ)/run",
+    "gate": "пройдены (v3); на белой морде пара мелких оранжевых крапин"
+   }
+  },
+  {
+   "name": "grass_1",
+   "type": "grass",
+   "status": "ok",
+   "triangles": 40,
+   "budget_tris": 250,
+   "height_m": 0.45,
+   "concept": "assets\\grass_1\\concept.png",
+   "raw_model": "assets\\grass_1\\raw.glb",
+   "final_glb": "assets\\grass_1\\model_v2.glb",
+   "godot_package": "assets\\grass_1\\godot_package_v2",
+   "pixel_dir": "assets\\grass_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\grass_1\\preview.png",
+   "gen3d_job_id": "21cac32f-d30b-4467-8c9f-cced83d205dd",
+   "forge_asset_id": "802f7b81-ca92-493d-a646-f6a29c9a84da",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 501,
+   "concept_candidate": "grass_c/d_1.png",
+   "notes": "",
+   "what_went_wrong": [
+    "thin pipeline: cleanup 19959 -> 4x decimate ratio 0.335 -> paint",
+    "budget 250 NOT met: 2787 tris (decimation to <250 failed sculpt_manifold on thin blades)"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\grass_1_turn.png",
+   "final_glb_v1": "assets\\grass_1\\model.glb",
+   "godot_package_v1": "assets\\grass_1\\godot_package",
+   "pixel_dir_v1": "assets\\grass_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 2787,
+   "budget_tris_v1": 250,
+   "clips_v1": null,
+   "v2": {
+    "done": "перекрёстные альфа-карточки из концепта, ветер UV2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "grass_2",
+   "type": "grass",
+   "status": "ok",
+   "triangles": 40,
+   "budget_tris": 250,
+   "height_m": 0.6,
+   "concept": "assets\\grass_2\\concept.png",
+   "raw_model": "assets\\grass_2\\raw.glb",
+   "final_glb": "assets\\grass_2\\model_v2.glb",
+   "godot_package": "assets\\grass_2\\godot_package_v2",
+   "pixel_dir": "assets\\grass_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64.0,
+   "preview": "assets\\grass_2\\preview.png",
+   "gen3d_job_id": "c8dd6ba8-cf80-4609-805c-63beb7052659",
+   "forge_asset_id": "306c9634-dc8c-4725-9f2d-6da339bf1cea",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 502,
+   "concept_candidate": "grass_a/d_1.png",
+   "notes": "",
+   "what_went_wrong": [
+    "decimated post-paint 7211->6934",
+    "thin pipeline: cleanup 19959 -> 4x decimate ratio 0.335 -> paint",
+    "budget 250 NOT met: 6934 tris (decimator stalls on blades)"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\grass_2_turn.png",
+   "final_glb_v1": "assets\\grass_2\\model.glb",
+   "godot_package_v1": "assets\\grass_2\\godot_package",
+   "pixel_dir_v1": "assets\\grass_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 6896,
+   "budget_tris_v1": 250,
+   "clips_v1": null,
+   "v2": {
+    "done": "перекрёстные альфа-карточки из концепта, ветер UV2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "grass_3",
+   "type": "grass",
+   "status": "ok",
+   "triangles": 548,
+   "budget_tris": 200,
+   "height_m": 0.8,
+   "concept": "assets\\grass_3\\concept.png",
+   "raw_model": "assets\\grass_3\\raw.glb",
+   "final_glb": "assets\\grass_3\\model.glb",
+   "godot_package": "assets\\grass_3\\godot_package",
+   "pixel_dir": "assets\\grass_3\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\grass_3\\preview.png",
+   "gen3d_job_id": "f789b79f-b52b-459b-9bfa-5665aab2e303",
+   "forge_asset_id": "5c1094cb-93e0-4e40-80ac-0aa495159c44",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 503,
+   "concept_candidate": "grass_b/d_2.png",
+   "notes": "",
+   "what_went_wrong": [
+    "decimated post-paint 600->548",
+    "thin pipeline: cleanup 19960 -> 4x decimate ratio 0.316 -> paint",
+    "budget 200 NOT met: 548 tris (decimation further failed sculpt_manifold)"
+   ],
+   "budget_met": false,
+   "qa_turn": null,
+   "v2": null
+  },
+  {
+   "name": "hare",
+   "type": "animal",
+   "status": "ok",
+   "triangles": 5832,
+   "budget_tris": 6000,
+   "height_m": 0.5,
+   "concept": "assets\\_v2\\hare\\concept_v3.png",
+   "raw_model": "assets\\hare\\raw.glb",
+   "final_glb": "assets\\hare\\model_v2.glb",
+   "godot_package": "assets\\hare\\godot_package_v2",
+   "pixel_dir": "assets\\hare\\pixel_v2",
+   "pixel_sheets": [
+    "hop.png",
+    "idle.png",
+    "run.png"
+   ],
+   "pixel_ppm": null,
+   "preview": "assets\\hare\\preview_paint.png",
+   "gen3d_job_id": "f90d1898-c7a2-4a01-b226-601cba6dd3b2",
+   "forge_asset_id": "c4f41989-d058-4eed-80f5-5f051a67a5f2",
+   "fx": null,
+   "clips": [
+    "idle-loop",
+    "hop-loop",
+    "run-loop"
+   ],
+   "template": "hand rig (Blender bpy) + procedural clips",
+   "seed": 812,
+   "concept_candidate": "hare/e_3.png",
+   "notes": " walk-loop dropped: foot_slide 0.6 cm > 0.5 limit on 4 variants; clips idle+run",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\hare_turn_v3.png",
+   "final_glb_v1": "assets\\hare\\model_final.glb",
+   "godot_package_v1": "assets\\hare\\godot_package",
+   "pixel_dir_v1": "assets\\hare\\pixel",
+   "pixel_sheets_v1": [
+    "idle.png",
+    "run.png"
+   ],
+   "triangles_v1": 5988,
+   "budget_tris_v1": 6000,
+   "clips_v1": [
+    "idle-loop",
+    "run-loop"
+   ],
+   "qa_rig": "assets\\qa\\hare_rig_v3.png",
+   "qa_clips": [
+    "assets\\qa\\hare_idle_v3.png",
+    "assets\\qa\\hare_hop_v3.png",
+    "assets\\qa\\hare_run_v3.png"
+   ],
+   "rig_blend": "assets\\_v2\\hare\\rig3\\hare_rig.blend",
+   "version": "v3",
+   "qa_mp4": [
+    "assets\\qa\\hare_hop_v3.mp4",
+    "assets\\qa\\hare_idle_v3.mp4",
+    "assets\\qa\\hare_run_v3.mp4"
+   ],
+   "qa_heads": "assets\\qa\\fox_hare_heads_v3.png",
+   "v2": {
+    "done": "v3: новый стилизованный концепт → Hunyuan3D; покраска зонами по костям + один тайл шерсти, глаза — 2 сферы; риг вручную, уши на костях; idle, hop (спокойные прыжки), run (half-bound)",
+    "gate": "пройдены (v3)"
+   }
+  },
+  {
+   "name": "house",
+   "type": "building+fx",
+   "status": "ok",
+   "triangles": 14970,
+   "budget_tris": 15000,
+   "height_m": 4.0,
+   "concept": "assets\\house\\concept.png",
+   "raw_model": "assets\\house\\raw.glb",
+   "final_glb": "assets\\house\\model_v2.glb",
+   "godot_package": "assets\\house\\godot_package_v2",
+   "pixel_dir": "assets\\house\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\house\\preview.png",
+   "gen3d_job_id": "65b41388-830a-4d63-a0ab-31168782befa",
+   "forge_asset_id": "72314f81-42ec-49ea-a2f4-5c89e3659957",
+   "fx": [
+    {
+     "preset": "smoke",
+     "socket": "socket_fx_chimney"
+    }
+   ],
+   "clips": null,
+   "template": null,
+   "seed": 531,
+   "concept_candidate": "house/d_4.png",
+   "notes": " fx in Godot package: [{\"preset\": \"smoke\", \"socket\": \"socket_fx_chimney\"}]",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\house_turn.png",
+   "final_glb_v1": "assets\\house\\model.glb",
+   "godot_package_v1": "assets\\house\\godot_package",
+   "pixel_dir_v1": "assets\\house\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 14970,
+   "budget_tris_v1": 15000,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2 (1536 px), солома и камень трипланарными тайлами",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "log",
+   "type": "prop",
+   "status": "ok",
+   "triangles": 798,
+   "budget_tris": 800,
+   "height_m": 0.5,
+   "concept": "assets\\log\\concept.png",
+   "raw_model": "assets\\log\\raw.glb",
+   "final_glb": "assets\\log\\model_v2.glb",
+   "godot_package": "assets\\log\\godot_package_v2",
+   "pixel_dir": "assets\\log\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\log\\preview.png",
+   "gen3d_job_id": "db3c8372-3ddb-446c-81b0-1db245962863",
+   "forge_asset_id": "62fce766-804b-4097-a050-51ca8e1c7a6d",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 551,
+   "concept_candidate": "log/e_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\log_turn.png",
+   "final_glb_v1": "assets\\log\\model.glb",
+   "godot_package_v1": "assets\\log\\godot_package",
+   "pixel_dir_v1": "assets\\log\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 798,
+   "budget_tris_v1": 800,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены; задний торец без колец (гладкий коричневый)"
+   }
+  },
+  {
+   "name": "rock_1",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 798,
+   "budget_tris": 800,
+   "height_m": 0.3,
+   "concept": "assets\\rock_1\\concept.png",
+   "raw_model": "assets\\rock_1\\raw.glb",
+   "final_glb": "assets\\rock_1\\model.glb",
+   "godot_package": "assets\\rock_1\\godot_package",
+   "pixel_dir": "assets\\rock_1\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 48,
+   "preview": "assets\\rock_1\\preview.png",
+   "gen3d_job_id": "be042ee2-83fa-45d9-9a0f-6efe672e7ce2",
+   "forge_asset_id": "072be224-34ab-44c3-8072-728921aae959",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 521,
+   "concept_candidate": "rock_1/d_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": null,
+   "v2": null
+  },
+  {
+   "name": "rock_2",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 798,
+   "budget_tris": 800,
+   "height_m": 0.45,
+   "concept": "assets\\rock_2\\concept.png",
+   "raw_model": "assets\\rock_2\\raw.glb",
+   "final_glb": "assets\\rock_2\\model.glb",
+   "godot_package": "assets\\rock_2\\godot_package",
+   "pixel_dir": "assets\\rock_2\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 48,
+   "preview": "assets\\rock_2\\preview.png",
+   "gen3d_job_id": "fe2333b8-6dea-4eb3-bfbc-4a9c967a2d5c",
+   "forge_asset_id": "e0e1f797-0689-4f40-8f8b-53e096a1ddcb",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 522,
+   "concept_candidate": "rock_2/d_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": null,
+   "v2": null
+  },
+  {
+   "name": "rock_3",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 1196,
+   "budget_tris": 1200,
+   "height_m": 0.8,
+   "concept": "assets\\rock_3\\concept.png",
+   "raw_model": "assets\\rock_3\\raw.glb",
+   "final_glb": "assets\\rock_3\\model_v2.glb",
+   "godot_package": "assets\\rock_3\\godot_package_v2",
+   "pixel_dir": "assets\\rock_3\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 40,
+   "preview": "assets\\rock_3\\preview.png",
+   "gen3d_job_id": "273bbf9d-484a-4d1a-bf5e-f24a215d2104",
+   "forge_asset_id": "59616847-3e5a-49b7-ad54-19e10170da4c",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 523,
+   "concept_candidate": "rock_3/d_3.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\rock_3_turn.png",
+   "final_glb_v1": "assets\\rock_3\\model.glb",
+   "godot_package_v1": "assets\\rock_3\\godot_package",
+   "pixel_dir_v1": "assets\\rock_3\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1196,
+   "budget_tris_v1": 1200,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "rock_4",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 798,
+   "budget_tris": 800,
+   "height_m": 0.35,
+   "concept": "assets\\rock_4\\concept.png",
+   "raw_model": "assets\\rock_4\\raw.glb",
+   "final_glb": "assets\\rock_4\\model.glb",
+   "godot_package": "assets\\rock_4\\godot_package",
+   "pixel_dir": "assets\\rock_4\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 48,
+   "preview": "assets\\rock_4\\preview.png",
+   "gen3d_job_id": "7cdbc105-3ce6-4d7e-ace4-47f30e9bee3e",
+   "forge_asset_id": "6df8587a-36ae-49ac-9b6c-19bcfa629dc9",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 524,
+   "concept_candidate": "rock_4/e_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": null,
+   "v2": null
+  },
+  {
+   "name": "rock_5",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 1196,
+   "budget_tris": 1200,
+   "height_m": 1.1,
+   "concept": "assets\\rock_5\\concept.png",
+   "raw_model": "assets\\rock_5\\raw.glb",
+   "final_glb": "assets\\rock_5\\model_v2.glb",
+   "godot_package": "assets\\rock_5\\godot_package_v2",
+   "pixel_dir": "assets\\rock_5\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 32,
+   "preview": "assets\\rock_5\\preview.png",
+   "gen3d_job_id": "68739b05-b204-4465-97a4-47a013f92369",
+   "forge_asset_id": "fe0ed9e9-c40e-4c38-91ec-7f3ba80f4621",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 525,
+   "concept_candidate": "rock_5/d_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\rock_5_turn.png",
+   "final_glb_v1": "assets\\rock_5\\model.glb",
+   "godot_package_v1": "assets\\rock_5\\godot_package",
+   "pixel_dir_v1": "assets\\rock_5\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1196,
+   "budget_tris_v1": 1200,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "rock_6",
+   "type": "rock",
+   "status": "ok",
+   "triangles": 1496,
+   "budget_tris": 1500,
+   "height_m": 2.0,
+   "concept": "assets\\rock_6\\concept.png",
+   "raw_model": "assets\\rock_6\\raw.glb",
+   "final_glb": "assets\\rock_6\\model_v2.glb",
+   "godot_package": "assets\\rock_6\\godot_package_v2",
+   "pixel_dir": "assets\\rock_6\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 24,
+   "preview": "assets\\rock_6\\preview.png",
+   "gen3d_job_id": "fb3c2f05-0829-4a5c-ab7c-d0ad04a4a763",
+   "forge_asset_id": "01458974-53df-4ff0-8d12-6896f1447501",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 526,
+   "concept_candidate": "rock_6/d_4.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\rock_6_turn.png",
+   "final_glb_v1": "assets\\rock_6\\model.glb",
+   "godot_package_v1": "assets\\rock_6\\godot_package",
+   "pixel_dir_v1": "assets\\rock_6\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 1496,
+   "budget_tris_v1": 1500,
+   "clips_v1": null,
+   "v2": {
+    "done": "покраска по 8 видам x2",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "sparrow",
+   "type": "animal",
+   "status": "ok",
+   "triangles": 6000,
+   "budget_tris": 6000,
+   "height_m": 0.15,
+   "concept": "assets\\sparrow\\concept.png",
+   "raw_model": "assets\\sparrow\\raw.glb",
+   "final_glb": "assets\\sparrow\\model_v2.glb",
+   "godot_package": "assets\\sparrow\\godot_package_v2",
+   "pixel_dir": "assets\\sparrow\\pixel_v2",
+   "pixel_sheets": [
+    "fly.png",
+    "idle.png",
+    "walk.png"
+   ],
+   "pixel_ppm": null,
+   "preview": "assets\\sparrow\\preview_paint.png",
+   "gen3d_job_id": "9e50ca5d-0716-4ab8-8ec4-be4e852fa327",
+   "forge_asset_id": "f3c397f3-6ff9-46c9-bb7f-429138031047",
+   "fx": null,
+   "clips": [
+    "idle-loop",
+    "walk-loop",
+    "fly-loop"
+   ],
+   "template": "hand rig (Blender bpy) + procedural clips",
+   "seed": 814,
+   "concept_candidate": "sparrow/d_4.png",
+   "notes": " folded wings -> no fly-loop (studio limitation); idle+hop/walk",
+   "what_went_wrong": [
+    "fly-loop impossible on folded-wing mesh; flight is in crow (spread-wing mesh)"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\sparrow_turn.png",
+   "final_glb_v1": "assets\\sparrow\\model_final.glb",
+   "godot_package_v1": "assets\\sparrow\\godot_package",
+   "pixel_dir_v1": "assets\\sparrow\\pixel",
+   "pixel_sheets_v1": [
+    "idle.png",
+    "walk.png"
+   ],
+   "triangles_v1": 5988,
+   "budget_tris_v1": 6000,
+   "clips_v1": [
+    "idle-loop",
+    "walk-loop"
+   ],
+   "qa_rig": "assets\\qa\\sparrow_rig.png",
+   "qa_clips": [
+    "assets\\qa\\sparrow_idle-loop.png",
+    "assets\\qa\\sparrow_walk-loop.png",
+    "assets\\qa\\sparrow_fly-loop.png"
+   ],
+   "rig_blend": "assets\\_v2\\sparrow\\rig\\sparrow_rig.blend",
+   "v2": {
+    "done": "покраска 8 видов + зеркало; крылья-карточки на костях плечо-локоть-кисть, добавлен fly",
+    "gate": "пройдены; в idle/walk крылья-карточки скрыты (крыло нарисовано на теле)"
+   }
+  },
+  {
+   "name": "torch_1",
+   "type": "prop+fx",
+   "status": "ok",
+   "triangles": 1346,
+   "budget_tris": null,
+   "height_m": null,
+   "concept": null,
+   "raw_model": null,
+   "final_glb": "assets\\torch_1\\model.glb",
+   "godot_package": "assets\\torch_1\\godot_package",
+   "pixel_dir": "assets\\torch_1\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\torch_1\\preview.png",
+   "gen3d_job_id": null,
+   "forge_asset_id": "c7ee0cee-ffdd-4cc3-af30-8710399e1e8a",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 10,
+   "concept_candidate": null,
+   "notes": "item_kit torch (procedural, has own flame mesh); poly count fixed by kit fx in Godot package: null",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\torch_1_turn.png",
+   "v2": "unchanged (procedural item_kit, uniform materials)"
+  },
+  {
+   "name": "torch_2",
+   "type": "prop+fx",
+   "status": "ok",
+   "triangles": 1270,
+   "budget_tris": null,
+   "height_m": null,
+   "concept": null,
+   "raw_model": null,
+   "final_glb": "assets\\torch_2\\model.glb",
+   "godot_package": "assets\\torch_2\\godot_package",
+   "pixel_dir": "assets\\torch_2\\pixel",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 64,
+   "preview": "assets\\torch_2\\preview.png",
+   "gen3d_job_id": null,
+   "forge_asset_id": "5ef6c4f2-eeee-436e-ab75-3ddbb56293cd",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 11,
+   "concept_candidate": null,
+   "notes": "item_kit torch (procedural, has own flame mesh); poly count fixed by kit fx in Godot package: null",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\torch_2_turn.png",
+   "v2": "unchanged (procedural item_kit, uniform materials)"
+  },
+  {
+   "name": "tree_apple_1",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 4714,
+   "budget_tris": 12000,
+   "height_m": 4.0,
+   "concept": "assets\\tree_apple_1\\concept.png",
+   "raw_model": "assets\\tree_apple_1\\raw.glb",
+   "final_glb": "assets\\tree_apple_1\\model_v2.glb",
+   "godot_package": "assets\\tree_apple_1\\godot_package_v2",
+   "pixel_dir": "assets\\tree_apple_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_apple_1\\preview.png",
+   "gen3d_job_id": "1634ebc1-8f65-42fd-90f2-1031d964ea24",
+   "forge_asset_id": "026a500c-31b7-49c6-8b98-8632aafd4d55",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 331,
+   "concept_candidate": "tree_apple/d_1.png",
+   "notes": "",
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 10303, \"error\"], [\"silhouette_iou\", false, 0.8404, \"warning\"], [\"silhouette_iou_min\", false, 0.8404, \"error\"], [\"render_color_mae\", false",
+    "attempt2 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 5602, \"error\"], [\"silhouette_iou\", false, 0.8213, \"warning\"], [\"silhouette_iou_min\", false, 0.8213, \"error\"], [\"render_color_mae\", false,"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_apple_1_turn.png",
+   "final_glb_v1": "assets\\tree_apple_1\\model.glb",
+   "godot_package_v1": "assets\\tree_apple_1\\godot_package",
+   "pixel_dir_v1": "assets\\tree_apple_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 7984,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.759,
+   "v2": {
+    "done": "ствол+ветки, 9 кластеров, атлас листьев с яблоками SDXL, ветер",
+    "gate": "пройдены; яблоки мельче, чем в концепте"
+   }
+  },
+  {
+   "name": "tree_apple_2",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 4523,
+   "budget_tris": 12000,
+   "height_m": 4.0,
+   "concept": "assets\\tree_apple_2\\concept.png",
+   "raw_model": "assets\\tree_apple_2\\raw.glb",
+   "final_glb": "assets\\tree_apple_2\\model_v2.glb",
+   "godot_package": "assets\\tree_apple_2\\godot_package_v2",
+   "pixel_dir": "assets\\tree_apple_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_apple_2\\preview.png",
+   "gen3d_job_id": "a3c38c31-c230-42b1-b46c-f4e70afb6c5b",
+   "forge_asset_id": "3e7393c5-128b-4ae7-bc1e-4bfa9c4540ae",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 332,
+   "concept_candidate": "tree_apple/d_3.png",
+   "notes": "",
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target, silhouette_iou_min\", \"checks\": [[\"tris_within_target\", false, 9052, \"error\"], [\"silhouette_iou\", false, 0.6846, \"warning\"], [\"silhouette_iou_min\", false, 0.6846, \"error\"], [\"render_color_mae\", false,",
+    "attempt2 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: silhouette_iou_min\", \"checks\": [[\"silhouette_iou\", false, 0.7816, \"warning\"], [\"silhouette_iou_min\", false, 0.7816, \"error\"], [\"render_color_mae\", false, 0.097, \"warning\"]], \"warnings\": [\"voxel_remesh_m=0.018 is 0.45% o"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_apple_2_turn.png",
+   "final_glb_v1": "assets\\tree_apple_2\\model.glb",
+   "godot_package_v1": "assets\\tree_apple_2\\godot_package",
+   "pixel_dir_v1": "assets\\tree_apple_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 7984,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.651,
+   "v2": {
+    "done": "ствол+ветки, 9 кластеров, атлас листьев с яблоками SDXL, ветер",
+    "gate": "пройдены; яблоки мельче, чем в концепте"
+   }
+  },
+  {
+   "name": "tree_birch_1",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5248,
+   "budget_tris": 12000,
+   "height_m": 5.0,
+   "concept": "assets\\tree_birch_1\\concept.png",
+   "raw_model": "assets\\tree_birch_1\\raw.glb",
+   "final_glb": "assets\\tree_birch_1\\model_v2.glb",
+   "godot_package": "assets\\tree_birch_1\\godot_package_v2",
+   "pixel_dir": "assets\\tree_birch_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_birch_1\\preview.png",
+   "gen3d_job_id": "2beecea5-a2f6-41b4-9867-f4b36e71d70f",
+   "forge_asset_id": "6074193a-07b0-4cac-b231-4828137734f0",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 311,
+   "concept_candidate": "tree_birch/d_2.png",
+   "notes": "",
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target\", \"checks\": [[\"tris_within_target\", false, 8646, \"error\"], [\"silhouette_iou\", false, 0.8607, \"warning\"], [\"render_color_mae\", false, 0.1001, \"warning\"]], \"warnings\": []}, \"paint_from_concept\": {\"statu",
+    "attempt2 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: silhouette_iou_min\", \"checks\": [[\"silhouette_iou\", false, 0.8295, \"warning\"], [\"silhouette_iou_min\", false, 0.8295, \"error\"], [\"render_color_mae\", false, 0.0947, \"warning\"]], \"warnings\": [\"voxel_remesh_m=0.0225 is 0.45%"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_birch_1_turn.png",
+   "final_glb_v1": "assets\\tree_birch_1\\model.glb",
+   "godot_package_v1": "assets\\tree_birch_1\\godot_package",
+   "pixel_dir_v1": "assets\\tree_birch_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 7984,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.743,
+   "v2": {
+    "done": "процедурный ствол (без обрезков у корня), рисованная кора, 9 кластеров листовых карточек",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_birch_2",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5248,
+   "budget_tris": 12000,
+   "height_m": 5.0,
+   "concept": "assets\\tree_birch_2\\concept.png",
+   "raw_model": "assets\\tree_birch_2\\raw.glb",
+   "final_glb": "assets\\tree_birch_2\\model_v2.glb",
+   "godot_package": "assets\\tree_birch_2\\godot_package_v2",
+   "pixel_dir": "assets\\tree_birch_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_birch_2\\preview.png",
+   "gen3d_job_id": "663e4620-4e5d-4236-88b8-4a207fcd3d07",
+   "forge_asset_id": "4a0f978e-5f58-49ff-a555-43d718b285a9",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 312,
+   "concept_candidate": "tree_birch/d_1.png",
+   "notes": "",
+   "what_went_wrong": [
+    "attempt1 cleanup/paint failed with budget 5000: {\"cleanup\": {\"status\": \"failed\", \"msg\": \"Шаг «cleanup» не прошёл: checks failed: tris_within_target\", \"checks\": [[\"tris_within_target\", false, 5432, \"error\"], [\"silhouette_iou\", false, 0.8835, \"warning\"], [\"render_color_mae\", false, 0.1035, \"warning\"]], \"warnings\": []}, \"paint_from_concept\": {\"statu"
+   ],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_birch_2_turn.png",
+   "final_glb_v1": "assets\\tree_birch_2\\model.glb",
+   "godot_package_v1": "assets\\tree_birch_2\\godot_package",
+   "pixel_dir_v1": "assets\\tree_birch_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 7984,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.75,
+   "v2": {
+    "done": "процедурный ствол (без обрезков у корня), рисованная кора, 9 кластеров листовых карточек",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_birch_3",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5248,
+   "budget_tris": 12000,
+   "height_m": 5.0,
+   "concept": "assets\\tree_birch_3\\concept.png",
+   "raw_model": "assets\\tree_birch_3\\raw.glb",
+   "final_glb": "assets\\tree_birch_3\\model_v2.glb",
+   "godot_package": "assets\\tree_birch_3\\godot_package_v2",
+   "pixel_dir": "assets\\tree_birch_3\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_birch_3\\preview.png",
+   "gen3d_job_id": "dfafe1f4-6e94-44bf-9dec-9424615fd933",
+   "forge_asset_id": "89200711-351f-417c-bb40-83c9765d2c05",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 313,
+   "concept_candidate": "tree_birch/d_3.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_birch_3_turn.png",
+   "final_glb_v1": "assets\\tree_birch_3\\model.glb",
+   "godot_package_v1": "assets\\tree_birch_3\\godot_package",
+   "pixel_dir_v1": "assets\\tree_birch_3\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.764,
+   "v2": {
+    "done": "процедурный ствол (без обрезков у корня), рисованная кора, 9 кластеров листовых карточек",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_oak_1",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5274,
+   "budget_tris": 12000,
+   "height_m": 4.5,
+   "concept": "assets\\tree_oak_1\\concept.png",
+   "raw_model": "assets\\tree_oak_1\\raw.glb",
+   "final_glb": "assets\\tree_oak_1\\model_v2.glb",
+   "godot_package": "assets\\tree_oak_1\\godot_package_v2",
+   "pixel_dir": "assets\\tree_oak_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_oak_1\\preview.png",
+   "gen3d_job_id": "75c8bec8-6a89-4c2c-b359-811e077c6abd",
+   "forge_asset_id": "c5e8017f-5a81-420b-8e7b-fbb1b9b8f61b",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 301,
+   "concept_candidate": "tree_oak/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_oak_1_turn.png",
+   "final_glb_v1": "assets\\tree_oak_1\\model.glb",
+   "godot_package_v1": "assets\\tree_oak_1\\godot_package",
+   "pixel_dir_v1": "assets\\tree_oak_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.73,
+   "v2": {
+    "done": "ствол+ветки, 10 кластеров-шаров из листовых карточек с просветами, атлас дуба SDXL, ветер",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_oak_2",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5284,
+   "budget_tris": 12000,
+   "height_m": 4.5,
+   "concept": "assets\\tree_oak_2\\concept.png",
+   "raw_model": "assets\\tree_oak_2\\raw.glb",
+   "final_glb": "assets\\tree_oak_2\\model_v2.glb",
+   "godot_package": "assets\\tree_oak_2\\godot_package_v2",
+   "pixel_dir": "assets\\tree_oak_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_oak_2\\preview.png",
+   "gen3d_job_id": "6c2ec9a5-3fdb-4e02-810b-a67090a2ef77",
+   "forge_asset_id": "8e765bb8-39b1-48da-a4d5-17b9bb72e962",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 302,
+   "concept_candidate": "tree_oak/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_oak_2_turn.png",
+   "final_glb_v1": "assets\\tree_oak_2\\model.glb",
+   "godot_package_v1": "assets\\tree_oak_2\\godot_package",
+   "pixel_dir_v1": "assets\\tree_oak_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.718,
+   "v2": {
+    "done": "ствол+ветки, 10 кластеров-шаров из листовых карточек с просветами, атлас дуба SDXL, ветер",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_oak_3",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5892,
+   "budget_tris": 12000,
+   "height_m": 4.5,
+   "concept": "assets\\tree_oak_3\\concept.png",
+   "raw_model": "assets\\tree_oak_3\\raw.glb",
+   "final_glb": "assets\\tree_oak_3\\model_v2.glb",
+   "godot_package": "assets\\tree_oak_3\\godot_package_v2",
+   "pixel_dir": "assets\\tree_oak_3\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_oak_3\\preview.png",
+   "gen3d_job_id": "0c2d7ba4-d32b-4109-8f3c-2909006b76ba",
+   "forge_asset_id": "8e096c89-1dc2-47a0-ad59-021fbb064ef3",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 303,
+   "concept_candidate": "tree_oak/d_1.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_oak_3_turn.png",
+   "final_glb_v1": "assets\\tree_oak_3\\model.glb",
+   "godot_package_v1": "assets\\tree_oak_3\\godot_package",
+   "pixel_dir_v1": "assets\\tree_oak_3\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.738,
+   "v2": {
+    "done": "ствол+ветки, 10 кластеров-шаров из листовых карточек с просветами, атлас дуба SDXL, ветер",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_spruce_1",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5848,
+   "budget_tris": 12000,
+   "height_m": 5.5,
+   "concept": "assets\\tree_spruce_1\\concept.png",
+   "raw_model": "assets\\tree_spruce_1\\raw.glb",
+   "final_glb": "assets\\tree_spruce_1\\model_v2.glb",
+   "godot_package": "assets\\tree_spruce_1\\godot_package_v2",
+   "pixel_dir": "assets\\tree_spruce_1\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_spruce_1\\preview.png",
+   "gen3d_job_id": "85fbea29-9c39-44fa-842d-5533197b469a",
+   "forge_asset_id": "7a5e4218-88a4-4e71-80ab-b1231c3d6c2c",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 321,
+   "concept_candidate": "tree_spruce/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_spruce_1_turn.png",
+   "final_glb_v1": "assets\\tree_spruce_1\\model.glb",
+   "godot_package_v1": "assets\\tree_spruce_1\\godot_package",
+   "pixel_dir_v1": "assets\\tree_spruce_1\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.843,
+   "v2": {
+    "done": "видимый ствол, 11 ярусов лап-карточек (атлас ели SDXL), тёмная подложка, ветер",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_spruce_2",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 5558,
+   "budget_tris": 12000,
+   "height_m": 5.5,
+   "concept": "assets\\tree_spruce_2\\concept.png",
+   "raw_model": "assets\\tree_spruce_2\\raw.glb",
+   "final_glb": "assets\\tree_spruce_2\\model_v2.glb",
+   "godot_package": "assets\\tree_spruce_2\\godot_package_v2",
+   "pixel_dir": "assets\\tree_spruce_2\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_spruce_2\\preview.png",
+   "gen3d_job_id": "263751db-579f-4337-ba2f-aa392f6741a1",
+   "forge_asset_id": "d0ee17eb-fc5b-449d-b2c1-02fedeec4d0b",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 322,
+   "concept_candidate": "tree_spruce/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_spruce_2_turn.png",
+   "final_glb_v1": "assets\\tree_spruce_2\\model.glb",
+   "godot_package_v1": "assets\\tree_spruce_2\\godot_package",
+   "pixel_dir_v1": "assets\\tree_spruce_2\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.832,
+   "v2": {
+    "done": "видимый ствол, 11 ярусов лап-карточек (атлас ели SDXL), тёмная подложка, ветер",
+    "gate": "пройдены"
+   }
+  },
+  {
+   "name": "tree_spruce_3",
+   "type": "tree",
+   "status": "ok",
+   "triangles": 6106,
+   "budget_tris": 12000,
+   "height_m": 5.5,
+   "concept": "assets\\tree_spruce_3\\concept.png",
+   "raw_model": "assets\\tree_spruce_3\\raw.glb",
+   "final_glb": "assets\\tree_spruce_3\\model_v2.glb",
+   "godot_package": "assets\\tree_spruce_3\\godot_package_v2",
+   "pixel_dir": "assets\\tree_spruce_3\\pixel_v2",
+   "pixel_sheets": [
+    "static.png"
+   ],
+   "pixel_ppm": 16,
+   "preview": "assets\\tree_spruce_3\\preview.png",
+   "gen3d_job_id": "22d5d202-1911-4ef6-804a-d5e7b8e58b6f",
+   "forge_asset_id": "d799b3e8-2c23-4915-b0ae-167798acece6",
+   "fx": null,
+   "clips": null,
+   "template": null,
+   "seed": 323,
+   "concept_candidate": "tree_spruce/d_2.png",
+   "notes": "",
+   "what_went_wrong": [],
+   "budget_met": true,
+   "qa_turn": "assets\\qa\\tree_spruce_3_turn.png",
+   "final_glb_v1": "assets\\tree_spruce_3\\model.glb",
+   "godot_package_v1": "assets\\tree_spruce_3\\godot_package",
+   "pixel_dir_v1": "assets\\tree_spruce_3\\pixel",
+   "pixel_sheets_v1": [
+    "static.png"
+   ],
+   "triangles_v1": 4990,
+   "budget_tris_v1": 5000,
+   "clips_v1": null,
+   "silhouette_iou_vs_concept": 0.842,
+   "v2": {
+    "done": "видимый ствол, 11 ярусов лап-карточек (атлас ели SDXL), тёмная подложка, ветер",
+    "gate": "пройдены"
+   }
+  }
+ ],
+ "textures": [
+  "assets\\textures\\dirt_tile.png",
+  "assets\\textures\\grass_tile.png",
+  "assets\\textures\\sand_tile.png",
+  "assets\\textures\\water_noise_gray_tile.png",
+  "assets\\textures\\water_noise_tile.png",
+  "assets\\textures\\water_perlin_gray_tile.png",
+  "assets\\textures\\water_perlin_tile.png"
+ ],
+ "version": "v2",
+ "v2_pipeline": "props/animals: repaint from 8 views x2 passes (SDXL img2img on renders + back-projection to UV, front from concept; animals mirror the concept flank); house: + triplanar thatch/stone detail; trees: trunk+branches, dark crown core, 5-10 lump clusters of alpha leaf cards (SDXL atlases), wind in UV2; grass/flowers/fern: crossed alpha cards from the concept; animals: hand rig + procedural clips (Blender bpy), QA sheets in qa/",
+ "qa_index": "assets\\qa\\index.png",
+ "broll_dir": "assets\\broll"
+}

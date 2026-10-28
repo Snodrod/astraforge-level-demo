@@ -1,0 +1,25 @@
+{
+ "id": "fern",
+ "ppm": 22,
+ "src_ppm": 48.0,
+ "k": 0.4583333333333333,
+ "cell": [
+  26,
+  31
+ ],
+ "anchor": [
+  13.0,
+  21.88235294117647
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

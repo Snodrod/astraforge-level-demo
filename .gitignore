@@ -1,0 +1,5 @@
+.godot/
+shots/
+*.ctex
+*.md5
+_godot_check/

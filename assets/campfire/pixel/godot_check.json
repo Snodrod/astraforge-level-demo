@@ -1,0 +1,129 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 8,
+    "animations": {
+     "static_E": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_N": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_NE": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_NW": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_S": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_SE": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_SW": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     },
+     "static_W": {
+      "atlas_size": [
+       40,
+       320
+      ],
+      "frame_size": [
+       40,
+       40
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/campfire_v2_6405b2ba/campfire_v2_6405b2ba_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 5.41,
+ "log": "C:\\AstraForge\\library\\assets\\6405b2ba-4c24-46da-9e3f-924f968375d9\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

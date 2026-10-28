@@ -1,0 +1,32 @@
+{
+ "id": "campfire",
+ "ppm": 24,
+ "src_ppm": 40.0,
+ "k": 0.6,
+ "cell": [
+  24,
+  24
+ ],
+ "anchor": [
+  12.0,
+  15.0
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

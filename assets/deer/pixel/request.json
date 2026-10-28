@@ -1,0 +1,43 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 28,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "deer_v2_828dba77"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites",
+  "asset": {
+    "id": "828dba77-1b8a-4483-ba19-881ce7e3406c",
+    "name": "deer_v2",
+    "kind": "creature",
+    "profile": {
+      "template": "auto"
+    }
+  },
+  "job": {
+    "id": "3f81ac76-bc44-4e2a-b05e-9e5f1974e6f7",
+    "version": "v001",
+    "index": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "crow",
+ "ppm": 34,
+ "src_ppm": 64.0,
+ "k": 0.53125,
+ "cell": [
+  28,
+  26
+ ],
+ "anchor": [
+  14.0,
+  19.5
+ ],
+ "views": [
+  "S",
+  "SW",
+  "W",
+  "NW",
+  "N",
+  "NE",
+  "E",
+  "SE"
+ ],
+ "clips": {
+  "fly": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 0.6,
+   "loop": true
+  },
+  "glide": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 2.0,
+   "loop": true
+  },
+  "idle": {
+   "frames": 8,
+   "fps": 8.0,
+   "source_duration_s": 2.5,
+   "loop": true
+  }
+ }
+}

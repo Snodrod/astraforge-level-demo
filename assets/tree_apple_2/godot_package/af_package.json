@@ -1,0 +1,20 @@
+{
+ "asset_id": "tree_apple_2",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "leaves_wind.gdshader",
+  "tree_apple_2.glb",
+  "tree_apple_2.tscn",
+  "tree_apple_2_leaves.png"
+ ],
+ "trunk_tris": 801,
+ "core_tris": 720,
+ "leaf_cards": 1501,
+ "leaf_tris": 3002,
+ "total_tris": 4523,
+ "H": 3.999999761581421,
+ "clusters": 9
+}

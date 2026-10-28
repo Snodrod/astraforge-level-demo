@@ -1,0 +1,21 @@
+{
+ "asset_id": "flower_2",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "flower_2.glb",
+  "flower_2.tscn",
+  "flower_2_leaves.png",
+  "leaves_wind.gdshader"
+ ],
+ "cards": 2,
+ "rows": 4,
+ "total_tris": 16,
+ "leaf_tris": 16,
+ "trunk_tris": 0,
+ "core_tris": 0,
+ "leaf_cards": 2,
+ "H": 0.5
+}

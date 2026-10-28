@@ -1,0 +1,82 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "campfire",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "campfire.glb",
+ "glb_sha256": "68047c7786f8c7650bccfeb02c1462eb1eb197fdbb1f3e623e43c63df0e3511e",
+ "source_glb": "C:\\AstraForge\\library\\assets\\ea2f91ab-963a-4c1f-8d03-cd7174035641\\source\\source.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [
+  {
+   "name": "socket_fx_fire",
+   "node": "socket_fx_fire",
+   "kind": null,
+   "size_class": null,
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": null,
+   "parent_bone": null,
+   "has_game_socket": true,
+   "frame": null
+  }
+ ],
+ "pivots": [],
+ "clips": [],
+ "fx": [
+  {
+   "preset": "fire",
+   "socket": "socket_fx_fire",
+   "file": "fire.tscn",
+   "node_name": "fx_fire",
+   "params": {},
+   "scale": 0.377,
+   "scale_source": "asset longest axis 0.679 m / preset 1.8 m",
+   "quad_size_m": 0.1319,
+   "visibility_aabb": [
+    -1.508,
+    -1.508,
+    -1.508,
+    3.016,
+    3.016,
+    3.016
+   ]
+  },
+  {
+   "preset": "sparks",
+   "socket": "socket_fx_fire",
+   "file": "sparks.tscn",
+   "node_name": "fx_sparks",
+   "params": {},
+   "scale": 0.377,
+   "scale_source": "asset longest axis 0.679 m / preset 1.8 m",
+   "quad_size_m": 0.0377,
+   "visibility_aabb": [
+    -1.508,
+    -1.508,
+    -1.508,
+    3.016,
+    3.016,
+    3.016
+   ]
+  }
+ ],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.6789,
+  0.5,
+  0.5607
+ ],
+ "longest_m": 0.6789,
+ "tris": 2494,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

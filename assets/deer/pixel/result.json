@@ -1,0 +1,703 @@
+{
+  "ok": true,
+  "step": "render_sprites",
+  "outputs": {
+    "sheets": {
+      "idle.png": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\idle.png",
+      "run.png": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\run.png",
+      "walk.png": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\walk.png"
+    },
+    "spriteframes": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\deer_v2_828dba77_frames.tres",
+    "palette": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\palette.png",
+    "palette_gpl": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\palette.gpl",
+    "sprites_json": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\sprites.json",
+    "preview": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\preview.png",
+    "preview_frames": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\preview_frames.png",
+    "godot_check": "C:\\AstraForge\\library\\assets\\828dba77-1b8a-4483-ba19-881ce7e3406c\\v001\\01_render_sprites\\godot_check.json"
+  },
+  "stats": {
+    "profile": "pixel",
+    "asset_id": "deer_v2_828dba77",
+    "engine": "BLENDER_EEVEE",
+    "device": "gpu",
+    "cell": [
+      56,
+      68
+    ],
+    "anchor": [
+      28.0,
+      52.0
+    ],
+    "px_per_meter": 28.0,
+    "elevation_deg": 40.0,
+    "views": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "frames_rendered": 192,
+    "render_seconds": 8.17,
+    "seconds_per_frame": 0.043,
+    "clips": {
+      "idle": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 0.3333
+      },
+      "run": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 1.6667
+      },
+      "walk": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 0.8333
+      }
+    },
+    "min_z_per_clip_m": {
+      "idle": [
+        0.0,
+        0.0
+      ],
+      "run": [
+        -0.001,
+        0.018
+      ],
+      "walk": [
+        -0.001,
+        0.001
+      ]
+    },
+    "body_luminance_by_view": {
+      "S": 85.4,
+      "SW": 76.4,
+      "W": 83.7,
+      "NW": 86.8,
+      "N": 88.1,
+      "NE": 82.5,
+      "E": 84.8,
+      "SE": 84.1
+    },
+    "normalization": {
+      "scale": 1.0,
+      "offset_m": [
+        -0.0055,
+        -0.1078,
+        0.0
+      ],
+      "pose": "rest",
+      "height_in_m": 1.6,
+      "height_m": 1.6,
+      "rest_height_m": 1.6
+    },
+    "root_ground_max_dev_px": {
+      "idle": 9.6,
+      "run": 9.6,
+      "walk": 9.6
+    },
+    "total_seconds": 13.24,
+    "forward": "-Y",
+    "body_px": 57.3,
+    "sheet_px": {
+      "idle": [
+        448,
+        544
+      ],
+      "run": [
+        448,
+        544
+      ],
+      "walk": [
+        448,
+        544
+      ]
+    },
+    "cell_adapted": null,
+    "body_scale": {
+      "px_per_m": 27.69,
+      "expected": 28.0,
+      "anchor_top_offset_px": 0.4,
+      "height_diff_px": -0.45,
+      "frames": 192
+    },
+    "pixel": {
+      "palette": [
+        "#372925",
+        "#42322c",
+        "#463b37",
+        "#573a2c",
+        "#553f36",
+        "#57453d",
+        "#554a45",
+        "#694635",
+        "#664b3e",
+        "#635046",
+        "#62534c",
+        "#6e5242",
+        "#625954",
+        "#7c533d",
+        "#735a4c",
+        "#7e5944",
+        "#715d53",
+        "#7d6151",
+        "#7a6457",
+        "#77665c",
+        "#716864",
+        "#8c644c",
+        "#796f69",
+        "#8e6b54",
+        "#896e5d",
+        "#877165",
+        "#9b6f51",
+        "#89786e",
+        "#917765",
+        "#847d7a",
+        "#a77a59",
+        "#998070",
+        "#a27e65",
+        "#928a84",
+        "#a18876",
+        "#949395",
+        "#bc8a64",
+        "#af8e75",
+        "#a99486",
+        "#b8a18f",
+        "#b0a69f",
+        "#acaaaa",
+        "#c4b8ae",
+        "#c1bebc",
+        "#d1cac5",
+        "#ded8d3",
+        "#f2eee9"
+      ],
+      "colors": 47,
+      "palette_source": "auto",
+      "outline": "auto",
+      "dither": false,
+      "alpha_threshold": 128,
+      "supersample": 3,
+      "downscale": 1,
+      "reduce": "box",
+      "render_scale": 3,
+      "texture_filter": "nearest"
+    },
+    "sheet_bytes": {
+      "idle.png": 62110,
+      "run.png": 91683,
+      "walk.png": 85220
+    }
+  },
+  "checks": [
+    {
+      "name": "cell_fit",
+      "ok": true,
+      "value": 0.0,
+      "limit": 0,
+      "severity": "error",
+      "note": "px of model outside the cell (margin 0 px), evaluated vertices"
+    },
+    {
+      "name": "sprite_size_sane",
+      "ok": true,
+      "value": {
+        "cell": [
+          56,
+          68
+        ],
+        "body_px": 57.3
+      },
+      "limit": {
+        "max_cell_px": 2048,
+        "min_body_px": 6.0
+      },
+      "severity": "error"
+    },
+    {
+      "name": "sheet_size",
+      "ok": true,
+      "value": {
+        "idle": [
+          448,
+          544
+        ],
+        "run": [
+          448,
+          544
+        ],
+        "walk": [
+          448,
+          544
+        ]
+      },
+      "limit": 16384,
+      "severity": "error",
+      "note": "px per sheet side (per-direction sheets when large)"
+    },
+    {
+      "name": "frames_rendered",
+      "ok": true,
+      "value": 192,
+      "limit": null,
+      "severity": "error"
+    },
+    {
+      "name": "frames_body_inside_cell",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "empty frames or body pixels within 2 px of the cell border"
+    },
+    {
+      "name": "body_scale_px_per_m",
+      "ok": true,
+      "value": {
+        "px_per_m": 27.69,
+        "expected": 28.0,
+        "anchor_top_offset_px": 0.4,
+        "height_diff_px": -0.45,
+        "frames": 192
+      },
+      "limit": 28.0,
+      "severity": "warning",
+      "note": "rendered body height / height of the vertex projection at the profile scale (median over all frames; must stay 28 px/m whatever the cell) and the rendered top vs the projection through the anchor (px); tolerance 3 % of the height or 2.5 px"
+    },
+    {
+      "name": "alpha_residue_px",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with 0 < alpha < alpha_floor after cleanup"
+    },
+    {
+      "name": "pixel_palette_only",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "distinct colours of visible pixels (all frames, with the outline) that are not in the palette (47 colours)"
+    },
+    {
+      "name": "pixel_alpha_binary",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with alpha other than 0 or 255 (no translucent edges)"
+    },
+    {
+      "name": "feet_on_ground_idle",
+      "ok": true,
+      "value": [
+        0.0,
+        0.0
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "feet_on_ground_run",
+      "ok": true,
+      "value": [
+        -0.001,
+        0.018
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "feet_on_ground_walk",
+      "ok": true,
+      "value": [
+        -0.001,
+        0.001
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "lighting_spread",
+      "ok": true,
+      "value": 1.153,
+      "limit": 1.6,
+      "severity": "warning",
+      "note": "max/min mean luminance of body pixels across views (front vs back albedo differs legitimately)"
+    },
+    {
+      "name": "godot_spriteframes",
+      "ok": true,
+      "value": {
+        "animations": 24,
+        "mismatches": [],
+        "engine_errors": 0,
+        "godot": "4.5.1.stable.official.f62fdbde1"
+      },
+      "limit": null,
+      "severity": "error",
+      "note": "headless Godot 4.5.1 loads the .tres, frame counts/loop/speed match"
+    },
+    {
+      "name": "godot_engine_errors",
+      "ok": true,
+      "value": [],
+      "limit": [],
+      "severity": "warning"
+    }
+  ],
+  "warnings": [],
+  "godot": {
+    "errors": [],
+    "fx_scenes": [],
+    "godot": "4.5.1-stable (official)",
+    "ok": true,
+    "scenes": [],
+    "sprite_frames": [
+      {
+        "animation_count": 24,
+        "animations": {
+          "idle_E": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_N": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_NE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_NW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_S": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_SE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_SW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_W": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_E": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_N": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_NE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_NW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_S": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_SE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_SW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "run_W": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_E": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_N": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_NE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_NW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_S": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_SE": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_SW": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_W": {
+            "atlas_size": [
+              448,
+              544
+            ],
+            "frame_size": [
+              56,
+              68
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          }
+        },
+        "loaded": true,
+        "mismatches": [],
+        "path": "res://sprites/deer_v2_828dba77/deer_v2_828dba77_frames.tres"
+      }
+    ]
+  },
+  "seconds": 13.46
+}

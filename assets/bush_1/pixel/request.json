@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\edda7e4c-8f67-4b28-9812-567e299e13c1\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\edda7e4c-8f67-4b28-9812-567e299e13c1\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 32,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "bush_1_v2_edda7e4c"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\edda7e4c-8f67-4b28-9812-567e299e13c1\\v001\\01_render_sprites",
+  "asset": {
+    "id": "edda7e4c-8f67-4b28-9812-567e299e13c1",
+    "name": "bush_1_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "9dbf65a9-7a91-4ca9-afa1-a80d381e8f42",
+    "version": "v001",
+    "index": 1
+  }
+}

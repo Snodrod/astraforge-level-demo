@@ -1,0 +1,31 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "rock_3",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "rock_3.glb",
+ "glb_sha256": "56311f87575ddf38a73cf7589cf003f4740d57094206a20c43566f28c3c6fdce",
+ "source_glb": "C:\\AstraForge\\library\\assets\\59616847-3e5a-49b7-ad54-19e10170da4c\\v001\\02_paint_from_concept\\painted.glb",
+ "glb_forward": "-Z",
+ "glb_forward_from": "manifest kind prop",
+ "glb_forward_guessed": false,
+ "scene_forward": "-Z",
+ "model_rotated_180": false,
+ "sockets": [],
+ "pivots": [],
+ "clips": [],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.8493,
+  0.8,
+  0.8488
+ ],
+ "longest_m": 0.8493,
+ "tris": 1196,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection)"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "log",
+ "ppm": 20,
+ "src_ppm": 40.0,
+ "k": 0.5,
+ "cell": [
+  16,
+  32
+ ],
+ "anchor": [
+  8.0,
+  18.5
+ ],
+ "views": [
+  "S"
+ ],
+ "clips": {
+  "static": {
+   "frames": 1,
+   "fps": 8.0,
+   "source_duration_s": 0.0,
+   "loop": false
+  }
+ }
+}

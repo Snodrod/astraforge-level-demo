@@ -1,0 +1,337 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 24,
+    "animations": {
+     "fly_E": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_N": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_NE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_NW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_S": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_SE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_SW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "fly_W": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_E": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_N": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_NE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_NW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_S": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_SE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_SW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "glide_W": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_E": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_N": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_NE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_NW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_S": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_SE": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_SW": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     },
+     "idle_W": {
+      "atlas_size": [
+       416,
+       384
+      ],
+      "frame_size": [
+       52,
+       48
+      ],
+      "frames": 8,
+      "loop": true,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/crow_v2_a0a5eba9/crow_v2_a0a5eba9_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.15,
+ "log": "C:\\AstraForge\\library\\assets\\a0a5eba9-fe63-4ffc-a149-a2e74222b12a\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

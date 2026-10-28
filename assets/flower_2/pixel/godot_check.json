@@ -1,0 +1,38 @@
+{
+ "result": {
+  "errors": [],
+  "fx_scenes": [],
+  "godot": "4.5.1-stable (official)",
+  "ok": true,
+  "scenes": [],
+  "sprite_frames": [
+   {
+    "animation_count": 1,
+    "animations": {
+     "static_S": {
+      "atlas_size": [
+       36,
+       52
+      ],
+      "frame_size": [
+       36,
+       52
+      ],
+      "frames": 1,
+      "loop": false,
+      "speed": 8.0
+     }
+    },
+    "loaded": true,
+    "mismatches": [],
+    "path": "res://sprites/flower_2_v2_8fbdb8cc/flower_2_v2_8fbdb8cc_frames.tres"
+   }
+  ]
+ },
+ "engine_errors": [],
+ "exit_import": 0,
+ "exit_script": 0,
+ "seconds": 3.13,
+ "log": "C:\\AstraForge\\library\\assets\\8fbdb8cc-dfc0-422b-9966-05daee85b4c3\\v001\\01_render_sprites\\_godot_check\\godot_log.txt",
+ "godot_version": "4.5.1.stable.official.f62fdbde1"
+}

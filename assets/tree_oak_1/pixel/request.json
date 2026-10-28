@@ -1,0 +1,41 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\295607fd-3faa-47f5-8bad-2267a9c1ed41\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\295607fd-3faa-47f5-8bad-2267a9c1ed41\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 16,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "tree_oak_1_v2_295607fd"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\295607fd-3faa-47f5-8bad-2267a9c1ed41\\v001\\01_render_sprites",
+  "asset": {
+    "id": "295607fd-3faa-47f5-8bad-2267a9c1ed41",
+    "name": "tree_oak_1_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "4124ec9a-b27e-464c-a07f-65b4ed27d0d9",
+    "version": "v001",
+    "index": 1
+  }
+}

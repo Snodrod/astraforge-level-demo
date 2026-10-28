@@ -1,0 +1,20 @@
+{
+ "asset_id": "bush_1",
+ "version": "v2",
+ "profile": "godot",
+ "files": [
+  "README.md",
+  "af_leaves_wind.gd",
+  "bush_1.glb",
+  "bush_1.tscn",
+  "bush_1_leaves.png",
+  "leaves_wind.gdshader"
+ ],
+ "trunk_tris": 18,
+ "core_tris": 300,
+ "leaf_cards": 250,
+ "leaf_tris": 500,
+ "total_tris": 818,
+ "H": 1.0,
+ "clusters": 7
+}

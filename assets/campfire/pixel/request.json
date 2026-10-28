@@ -1,0 +1,41 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\6405b2ba-4c24-46da-9e3f-924f968375d9\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\6405b2ba-4c24-46da-9e3f-924f968375d9\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "pixels_per_meter": 40,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "campfire_v2_6405b2ba"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\6405b2ba-4c24-46da-9e3f-924f968375d9\\v001\\01_render_sprites",
+  "asset": {
+    "id": "6405b2ba-4c24-46da-9e3f-924f968375d9",
+    "name": "campfire_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "acc15707-0194-4aca-ba1d-06146065fc01",
+    "version": "v001",
+    "index": 1
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "ok": true,
+  "step": "render_sprites",
+  "outputs": {
+    "sheets": {
+      "fly.png": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\fly.png",
+      "idle.png": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\idle.png",
+      "walk.png": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\walk.png"
+    },
+    "spriteframes": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\sparrow_v2_bced46b6_frames.tres",
+    "palette": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\palette.png",
+    "palette_gpl": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\palette.gpl",
+    "sprites_json": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\sprites.json",
+    "preview": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\preview.png",
+    "preview_frames": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\preview_frames.png",
+    "godot_check": "C:\\AstraForge\\library\\assets\\bced46b6-1a60-49a1-8e12-99c8b9ca7e4a\\v001\\01_render_sprites\\godot_check.json"
+  },
+  "stats": {
+    "profile": "pixel",
+    "asset_id": "sparrow_v2_bced46b6",
+    "engine": "BLENDER_EEVEE",
+    "device": "gpu",
+    "cell": [
+      44,
+      44
+    ],
+    "anchor": [
+      22.0,
+      31.0
+    ],
+    "px_per_meter": 160.0,
+    "elevation_deg": 40.0,
+    "views": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "frames_rendered": 192,
+    "render_seconds": 8.21,
+    "seconds_per_frame": 0.043,
+    "clips": {
+      "fly": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 3.3333
+      },
+      "idle": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 0.5
+      },
+      "walk": {
+        "frames": 8,
+        "loop": true,
+        "fps": 8.0,
+        "in_place": "drift",
+        "time_scale": 2.0
+      }
+    },
+    "min_z_per_clip_m": {
+      "fly": [
+        0.007,
+        0.018
+      ],
+      "idle": [
+        0.0,
+        0.0
+      ],
+      "walk": [
+        -0.0,
+        0.006
+      ]
+    },
+    "body_luminance_by_view": {
+      "S": 80.5,
+      "SW": 77.8,
+      "W": 80.8,
+      "NW": 80.2,
+      "N": 81.0,
+      "NE": 83.6,
+      "E": 85.8,
+      "SE": 86.8
+    },
+    "normalization": {
+      "scale": 1.0,
+      "offset_m": [
+        -0.0002,
+        -0.0218,
+        0.0001
+      ],
+      "pose": "rest",
+      "height_in_m": 0.1498,
+      "height_m": 0.1498,
+      "rest_height_m": 0.1498
+    },
+    "root_ground_max_dev_px": {
+      "fly": 0.3,
+      "idle": 0.3,
+      "walk": 0.3
+    },
+    "total_seconds": 13.09,
+    "forward": "-Y",
+    "body_px": 31.0,
+    "sheet_px": {
+      "fly": [
+        352,
+        352
+      ],
+      "idle": [
+        352,
+        352
+      ],
+      "walk": [
+        352,
+        352
+      ]
+    },
+    "cell_adapted": null,
+    "body_scale": {
+      "px_per_m": 157.96,
+      "expected": 160.0,
+      "anchor_top_offset_px": 0.1,
+      "height_diff_px": -0.29,
+      "frames": 181
+    },
+    "pixel": {
+      "palette": [
+        "#161413",
+        "#322c2b",
+        "#41332d",
+        "#4b3931",
+        "#453b38",
+        "#4c413b",
+        "#56443a",
+        "#614032",
+        "#4f4743",
+        "#62493d",
+        "#554e49",
+        "#6d4836",
+        "#674f41",
+        "#605248",
+        "#605751",
+        "#7a523d",
+        "#69584d",
+        "#745a4a",
+        "#89563a",
+        "#766051",
+        "#716358",
+        "#6f6660",
+        "#86634d",
+        "#966243",
+        "#766e67",
+        "#816e5f",
+        "#956b51",
+        "#a76943",
+        "#946f57",
+        "#8c7260",
+        "#a9704d",
+        "#897c70",
+        "#927a65",
+        "#86827d",
+        "#ac7e5f",
+        "#b77b53",
+        "#9c8673",
+        "#a28f7c",
+        "#98958e",
+        "#b4967b",
+        "#af9e8c",
+        "#aeaaa1",
+        "#c3ab91",
+        "#c3b29f",
+        "#cfbca6",
+        "#dcc7af",
+        "#e3d2bc",
+        "#f1e3cd"
+      ],
+      "colors": 48,
+      "palette_source": "auto",
+      "outline": "auto",
+      "dither": false,
+      "alpha_threshold": 128,
+      "supersample": 3,
+      "downscale": 1,
+      "reduce": "box",
+      "render_scale": 3,
+      "texture_filter": "nearest"
+    },
+    "sheet_bytes": {
+      "fly.png": 51980,
+      "idle.png": 32227,
+      "walk.png": 38107
+    }
+  },
+  "checks": [
+    {
+      "name": "cell_fit",
+      "ok": true,
+      "value": 0.0,
+      "limit": 0,
+      "severity": "error",
+      "note": "px of model outside the cell (margin 0 px), evaluated vertices"
+    },
+    {
+      "name": "sprite_size_sane",
+      "ok": true,
+      "value": {
+        "cell": [
+          44,
+          44
+        ],
+        "body_px": 31.0
+      },
+      "limit": {
+        "max_cell_px": 2048,
+        "min_body_px": 6.0
+      },
+      "severity": "error"
+    },
+    {
+      "name": "sheet_size",
+      "ok": true,
+      "value": {
+        "fly": [
+          352,
+          352
+        ],
+        "idle": [
+          352,
+          352
+        ],
+        "walk": [
+          352,
+          352
+        ]
+      },
+      "limit": 16384,
+      "severity": "error",
+      "note": "px per sheet side (per-direction sheets when large)"
+    },
+    {
+      "name": "frames_rendered",
+      "ok": true,
+      "value": 192,
+      "limit": null,
+      "severity": "error"
+    },
+    {
+      "name": "frames_body_inside_cell",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "empty frames or body pixels within 2 px of the cell border"
+    },
+    {
+      "name": "body_scale_px_per_m",
+      "ok": true,
+      "value": {
+        "px_per_m": 157.96,
+        "expected": 160.0,
+        "anchor_top_offset_px": 0.1,
+        "height_diff_px": -0.29,
+        "frames": 181
+      },
+      "limit": 160.0,
+      "severity": "warning",
+      "note": "rendered body height / height of the vertex projection at the profile scale (median over all frames; must stay 160 px/m whatever the cell) and the rendered top vs the projection through the anchor (px); tolerance 3 % of the height or 2.5 px"
+    },
+    {
+      "name": "alpha_residue_px",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with 0 < alpha < alpha_floor after cleanup"
+    },
+    {
+      "name": "pixel_palette_only",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "distinct colours of visible pixels (all frames, with the outline) that are not in the palette (48 colours)"
+    },
+    {
+      "name": "pixel_alpha_binary",
+      "ok": true,
+      "value": 0,
+      "limit": 0,
+      "severity": "error",
+      "note": "pixels with alpha other than 0 or 255 (no translucent edges)"
+    },
+    {
+      "name": "feet_on_ground_fly",
+      "ok": true,
+      "value": [
+        0.007,
+        0.018
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "feet_on_ground_idle",
+      "ok": true,
+      "value": [
+        0.0,
+        0.0
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "feet_on_ground_walk",
+      "ok": true,
+      "value": [
+        -0.0,
+        0.006
+      ],
+      "limit": [
+        -0.05,
+        0.05
+      ],
+      "severity": "warning",
+      "note": "min z of the deformed mesh per frame, m"
+    },
+    {
+      "name": "lighting_spread",
+      "ok": true,
+      "value": 1.116,
+      "limit": 1.6,
+      "severity": "warning",
+      "note": "max/min mean luminance of body pixels across views (front vs back albedo differs legitimately)"
+    },
+    {
+      "name": "godot_spriteframes",
+      "ok": true,
+      "value": {
+        "animations": 24,
+        "mismatches": [],
+        "engine_errors": 0,
+        "godot": "4.5.1.stable.official.f62fdbde1"
+      },
+      "limit": null,
+      "severity": "error",
+      "note": "headless Godot 4.5.1 loads the .tres, frame counts/loop/speed match"
+    },
+    {
+      "name": "godot_engine_errors",
+      "ok": true,
+      "value": [],
+      "limit": [],
+      "severity": "warning"
+    }
+  ],
+  "warnings": [
+    "model is 0.1498 m tall at rest: outside 0.3..15 m, probably centimetres/millimetres or studio units; pass params.height_m (e.g. 1.8 for a human)"
+  ],
+  "godot": {
+    "errors": [],
+    "fx_scenes": [],
+    "godot": "4.5.1-stable (official)",
+    "ok": true,
+    "scenes": [],
+    "sprite_frames": [
+      {
+        "animation_count": 24,
+        "animations": {
+          "fly_E": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_N": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_NE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_NW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_S": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_SE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_SW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "fly_W": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_E": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_N": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_NE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_NW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_S": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_SE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_SW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "idle_W": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_E": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_N": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_NE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_NW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_S": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_SE": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_SW": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          },
+          "walk_W": {
+            "atlas_size": [
+              352,
+              352
+            ],
+            "frame_size": [
+              44,
+              44
+            ],
+            "frames": 8,
+            "loop": true,
+            "speed": 8.0
+          }
+        },
+        "loaded": true,
+        "mismatches": [],
+        "path": "res://sprites/sparrow_v2_bced46b6/sparrow_v2_bced46b6_frames.tres"
+      }
+    ]
+  },
+  "seconds": 13.33
+}

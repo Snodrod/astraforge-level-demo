@@ -1,0 +1,115 @@
+{
+ "format": "astraforge-godot-package/1",
+ "asset_id": "crow",
+ "profile": "godot",
+ "godot": "4.5",
+ "glb": "crow.glb",
+ "glb_sha256": "990cf685b1f05614cdbc21b1fe2f1530cc7fe1a4d446c62afcd3b3f139152860",
+ "source_glb": "C:\\AstraForge\\library\\assets\\2a74028b-4fc0-4b9e-a18f-1a40bc1c2b6c\\v002\\02_sculpt\\sculpt.glb",
+ "glb_forward": "+Z",
+ "glb_forward_from": "manifest kind creature",
+ "glb_forward_guessed": false,
+ "scene_forward": "+Z",
+ "model_rotated_180": false,
+ "sockets": [
+  {
+   "name": "socket_fx_head",
+   "node": "socket_fx_head",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_mouth",
+   "node": "socket_fx_mouth",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "head",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_fx_tail",
+   "node": "socket_fx_tail",
+   "kind": "fx",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "tail_03",
+   "has_game_socket": true,
+   "frame": null
+  },
+  {
+   "name": "socket_mount_back",
+   "node": "socket_mount_back",
+   "kind": "mount",
+   "size_class": "S",
+   "size_class_from": null,
+   "diameter_m": null,
+   "type": "EMPTY",
+   "parent": "creature_rig",
+   "parent_bone": "spine_02",
+   "has_game_socket": true,
+   "frame": null
+  }
+ ],
+ "pivots": [],
+ "clips": [
+  {
+   "name": "fly-loop",
+   "base": "fly",
+   "loop": true,
+   "package_name": "fly-loop",
+   "frames": [
+    0.0,
+    19.2
+   ]
+  },
+  {
+   "name": "glide-loop",
+   "base": "glide",
+   "loop": true,
+   "package_name": "glide-loop",
+   "frames": [
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "name": "idle-loop",
+   "base": "idle",
+   "loop": true,
+   "package_name": "idle-loop",
+   "frames": [
+    0.0,
+    57.6
+   ]
+  }
+ ],
+ "fx": [],
+ "fx_auto_scale": true,
+ "size_gltf_m": [
+  0.5569,
+  0.4504,
+  0.2193
+ ],
+ "longest_m": 0.5569,
+ "tris": 5988,
+ "registry": null,
+ "sq_units": null,
+ "sprites": false,
+ "version": "v2",
+ "v2_note": "repainted from all sides (8 views x2, SDXL img2img + back-projection); hand rig + procedural clips"
+}

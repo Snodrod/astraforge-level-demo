@@ -1,0 +1,34 @@
+{
+  "step": "render_sprites",
+  "inputs": {
+    "mesh": "C:\\AstraForge\\library\\assets\\ff6003fa-8620-4f8d-8057-d0383d4ab53c\\source\\source.glb",
+    "manifest": "C:\\AstraForge\\library\\assets\\ff6003fa-8620-4f8d-8057-d0383d4ab53c\\v001\\asset.snapshot.json"
+  },
+  "params": {
+    "profile": "pixel",
+    "directions": [
+      "S"
+    ],
+    "pixels_per_meter": 64,
+    "colors": 48,
+    "levels": false,
+    "saturation": 1,
+    "outline": "auto",
+    "supersample": 3,
+    "elevation_deg": 40,
+    "min_body_px": 6,
+    "asset_id": "flower_1_v2_ff6003fa"
+  },
+  "out_dir": "C:\\AstraForge\\library\\assets\\ff6003fa-8620-4f8d-8057-d0383d4ab53c\\v001\\01_render_sprites",
+  "asset": {
+    "id": "ff6003fa-8620-4f8d-8057-d0383d4ab53c",
+    "name": "flower_1_v2",
+    "kind": "prop",
+    "profile": {}
+  },
+  "job": {
+    "id": "9fc3ebca-e18a-45af-ba27-6dd059e6a7d8",
+    "version": "v001",
+    "index": 1
+  }
+}
